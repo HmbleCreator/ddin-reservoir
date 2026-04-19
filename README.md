@@ -20,13 +20,14 @@ DDIN-Reservoir/
 
 ## 📖 Papers (in Papers/)
 
-| Paper | Title | Status | Key Finding |
-|-------|-------|--------|-------------|
-| **Paper 1** | Phonosemantic Grounding | ✅ | Framework establishing Sanskrit as motivated sign system |
-| **Paper 2** | Sequential ODE Encoding | ✅ Note | Sequential encoding improves consonant class discrimination |
-| **Paper 3** | ESL + BCM Architecture | ✅ | Epileptiform Synchrony Limit characterization; BCM resolves it |
-| **Paper 4** | Negative Result | ✅ | Acoustic features insufficient for semantic recovery; mechanistic diagnosis |
-| **Paper 5** | (See Paper 4) | — | Paper 4 was retracted and replaced with negative result paper |
+| Paper                                                                                 | Title                   | Status | Key Finding                                                                 |
+| ------------------------------------------------------------------------------------- | ----------------------- | ------ | --------------------------------------------------------------------------- |
+| **Paper 1** ([DOI: 10.5281/zenodo.19508957](https://doi.org/10.5281/zenodo.19508957)) | Phonosemantic Grounding | ✅      | Framework establishing Sanskrit as motivated sign system                    |
+| **Paper 2** ([DOI: 10.5281/zenodo.19570074](https://doi.org/10.5281/zenodo.19570074)) | Sequential ODE Encoding | ✅ Note | Sequential encoding improves consonant class discrimination                 |
+| **Paper 3** ([DOI: 10.5281/zenodo.19602054](https://doi.org/10.5281/zenodo.19602054)) | ESL + BCM Architecture  | ✅      | Epileptiform Synchrony Limit characterization; BCM resolves it              |
+| **Paper 4**                                                                           | Negative Result         | ✅      | Acoustic features insufficient for semantic recovery; mechanistic diagnosis |
+| **Paper 5**                                                                           | (See Paper 4)           | —      | Paper 4 was retracted and replaced with negative result paper               |
+
 
 **Critical Reading Order:**
 1. Start with **Paper 4** (the negative result) to understand what was discovered
