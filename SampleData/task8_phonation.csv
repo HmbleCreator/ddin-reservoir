@@ -1,0 +1,37 @@
+pair_id,prompt,correct_option
+"ta_vs_dha","In the Phonosemantic Grounding framework (Kumar, 2026), Dimension 3 (Phonation Type) and Dimension 4 (Somatic Resonance) encode breath force and proprioceptive feedback.
+
+Compare the physical reality of producing these two phonemes:
+Option A: 'ta' (unaspirated dental stop, alpaprāṇa, low breath force).
+Option B: 'dha' (aspirated dental stop, mahāprāṇa, high breath force).
+
+Which phoneme's structural coordinate requires deeper abdominal/diaphragmatic motor-unit recruitment and encodes a higher phenomenological expenditure?
+
+Respond with JSON only: { ""selected_option"": """", ""confidence"": 0, ""reasoning"": """" }","B"
+"bha_vs_pa","In the Phonosemantic Grounding framework (Kumar, 2026), Dimension 3 (Phonation Type) and Dimension 4 (Somatic Resonance) encode breath force and proprioceptive feedback.
+
+Compare the physical reality of producing these two phonemes:
+Option A: 'bha' (aspirated labial stop, mahāprāṇa, high breath force).
+Option B: 'pa' (unaspirated labial stop, alpaprāṇa, low breath force).
+
+Which phoneme's structural coordinate requires deeper abdominal/diaphragmatic motor-unit recruitment and encodes a higher phenomenological expenditure?
+
+Respond with JSON only: { ""selected_option"": """", ""confidence"": 0, ""reasoning"": """" }","A"
+"la_vs_ra","In the Phonosemantic Grounding framework (Kumar, 2026), articulatory locus and effort determine somatic resonance.
+
+Compare these two approximants:
+Option A: 'la' (Dental origin, low effort, R2/R3 resonance).
+Option B: 'ra' (Cerebral/Retroflex origin, requiring high abdominal breath force, R2 pelvic/sacral resonance).
+
+Which sound's physiological production demands greater ascending energetic activation from the lower somatic regions?
+
+Respond with JSON only: { ""selected_option"": """", ""confidence"": 0, ""reasoning"": """" }","B"
+"ha_vs_ka","In the Phonosemantic Grounding framework (Kumar, 2026), sounds are mapped to somatic resonance loci.
+
+Compare these two throat-origin sounds:
+Option A: 'ha' (Visarga/pure breath, massive laryngeal/abdominal engagement).
+Option B: 'ka' (Unaspirated throat stop, momentary closure).
+
+Which phoneme represents a continuous, high-expenditure radiating outward expression rather than a momentary, low-expenditure boundary?
+
+Respond with JSON only: { ""selected_option"": """", ""confidence"": 0, ""reasoning"": """" }","A"

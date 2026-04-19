@@ -1,0 +1,37 @@
+anchor,option_a,option_b,prompt,correct_option
+"kR","bhū","gam","Anchor Root: 'kR' (Throat origin: to do, make). 
+
+According to the Phonosemantic Grounding framework (Kumar, 2026), Harmonic Coherence (H) measures shared physical articulatory origin, NOT historical statistical co-occurrence or English synonymy.
+
+Which of the following roots has a higher Harmonic Coherence with the Anchor?
+Option A: 'bhū' (Labial origin: to be, become). [Statistically frequent co-occurrence with kR, but different locus].
+Option B: 'gam' (Throat origin 'ga': to go). [Shares the exact same Throat locus as kR].
+
+Respond with JSON only: { ""selected_option"": """", ""confidence"": 0, ""reasoning"": """" }","B"
+"cit","vid","jan","Anchor Root: 'cit' (Palatal origin 'ca': to perceive, know, discern). 
+
+According to the Phonosemantic Grounding framework (Kumar, 2026), Harmonic Coherence (H) measures shared physical articulatory origin, NOT historical statistical co-occurrence or English synonymy.
+
+Which of the following roots has a higher Harmonic Coherence with the Anchor?
+Option A: 'vid' (Labio-dental/Dental origin: to know). [Exact English synonym, high cosine similarity].
+Option B: 'jan' (Palatal origin 'ja': to generate, create). [Shares the exact same Palatal locus as cit].
+
+Respond with JSON only: { ""selected_option"": """", ""confidence"": 0, ""reasoning"": """" }","B"
+"ruh","vṛdh","ri","Anchor Root: 'ruh' (Cerebral origin 'ra': to ascend, mount, grow). 
+
+According to the Phonosemantic Grounding framework (Kumar, 2026), Harmonic Coherence (H) measures shared physical articulatory origin, NOT historical statistical co-occurrence or English synonymy.
+
+Which of the following roots has a higher Harmonic Coherence with the Anchor?
+Option A: 'vṛdh' (Labio-dental/Dental origin: to grow, increase). [Semantic synonym].
+Option B: 'ri' (Cerebral origin 'ra': to flow, run, release). [Shares the exact same Cerebral locus as ruh].
+
+Respond with JSON only: { ""selected_option"": """", ""confidence"": 0, ""reasoning"": """" }","B"
+"paś","dṛś","pad","Anchor Root: 'paś' (Labial origin 'pa': to see, behold). 
+
+According to the Phonosemantic Grounding framework (Kumar, 2026), Harmonic Coherence (H) measures shared physical articulatory origin, NOT historical statistical co-occurrence or English synonymy.
+
+Which of the following roots has a higher Harmonic Coherence with the Anchor?
+Option A: 'dṛś' (Dental/Cerebral origin: to see). [Exact English synonym].
+Option B: 'pad' (Labial origin 'pa': to fall, go, step). [Shares the exact same Labial locus as paś].
+
+Respond with JSON only: { ""selected_option"": """", ""confidence"": 0, ""reasoning"": """" }","B"

@@ -1,0 +1,281 @@
+root_a,locus_a,root_b,locus_b,prompt,articulatory_distance,same_actual_axis,expected_similarity
+kR,THROAT,ci,PALATE,"Two Sanskrit verbal roots:
+
+Root A: **kR** (THROAT group) — to do, make, perform, accomplish, cause, produce...
+Root B: **ci** (PALATE group) — to observe, perceive, notice; to search...
+
+On a scale of 1-5, how semantically similar are these two roots?
+(1 = completely unrelated, 5 = very similar in meaning)
+
+Respond with JSON only:
+{
+  ""similarity"": <integer 1-5>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",3,False,3
+kR,THROAT,cit,PALATE,"Two Sanskrit verbal roots:
+
+Root A: **kR** (THROAT group) — to do, make, perform, accomplish, cause, produce...
+Root B: **cit** (PALATE group) — to perceive, understand, know; to think...
+
+On a scale of 1-5, how semantically similar are these two roots?
+(1 = completely unrelated, 5 = very similar in meaning)
+
+Respond with JSON only:
+{
+  ""similarity"": <integer 1-5>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",3,False,3
+kR,THROAT,cint,PALATE,"Two Sanskrit verbal roots:
+
+Root A: **kR** (THROAT group) — to do, make, perform, accomplish, cause, produce...
+Root B: **cint** (PALATE group) — to think, reflect, consider; to imagine...
+
+On a scale of 1-5, how semantically similar are these two roots?
+(1 = completely unrelated, 5 = very similar in meaning)
+
+Respond with JSON only:
+{
+  ""similarity"": <integer 1-5>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",3,False,3
+kR,THROAT,cur,PALATE,"Two Sanskrit verbal roots:
+
+Root A: **kR** (THROAT group) — to do, make, perform, accomplish, cause, produce...
+Root B: **cur** (PALATE group) — to steal; to consume; to be crooked...
+
+On a scale of 1-5, how semantically similar are these two roots?
+(1 = completely unrelated, 5 = very similar in meaning)
+
+Respond with JSON only:
+{
+  ""similarity"": <integer 1-5>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",3,False,3
+kR,THROAT,cud,PALATE,"Two Sanskrit verbal roots:
+
+Root A: **kR** (THROAT group) — to do, make, perform, accomplish, cause, produce...
+Root B: **cud** (PALATE group) — to drive on, urge; to hasten; to sharpen...
+
+On a scale of 1-5, how semantically similar are these two roots?
+(1 = completely unrelated, 5 = very similar in meaning)
+
+Respond with JSON only:
+{
+  ""similarity"": <integer 1-5>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",3,False,3
+kR,THROAT,jan,PALATE,"Two Sanskrit verbal roots:
+
+Root A: **kR** (THROAT group) — to do, make, perform, accomplish, cause, produce...
+Root B: **jan** (PALATE group) — to be born, to arise; to generate, produce...
+
+On a scale of 1-5, how semantically similar are these two roots?
+(1 = completely unrelated, 5 = very similar in meaning)
+
+Respond with JSON only:
+{
+  ""similarity"": <integer 1-5>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",3,True,3
+kR,THROAT,jap,PALATE,"Two Sanskrit verbal roots:
+
+Root A: **kR** (THROAT group) — to do, make, perform, accomplish, cause, produce...
+Root B: **jap** (PALATE group) — to mutter, whisper; to repeat in low tones...
+
+On a scale of 1-5, how semantically similar are these two roots?
+(1 = completely unrelated, 5 = very similar in meaning)
+
+Respond with JSON only:
+{
+  ""similarity"": <integer 1-5>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",3,True,3
+kR,THROAT,jalp,PALATE,"Two Sanskrit verbal roots:
+
+Root A: **kR** (THROAT group) — to do, make, perform, accomplish, cause, produce...
+Root B: **jalp** (PALATE group) — to speak, chatter, babble; to proclaim...
+
+On a scale of 1-5, how semantically similar are these two roots?
+(1 = completely unrelated, 5 = very similar in meaning)
+
+Respond with JSON only:
+{
+  ""similarity"": <integer 1-5>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",3,True,3
+kR,THROAT,ji,PALATE,"Two Sanskrit verbal roots:
+
+Root A: **kR** (THROAT group) — to do, make, perform, accomplish, cause, produce...
+Root B: **ji** (PALATE group) — to win, conquer, overcome; to excel...
+
+On a scale of 1-5, how semantically similar are these two roots?
+(1 = completely unrelated, 5 = very similar in meaning)
+
+Respond with JSON only:
+{
+  ""similarity"": <integer 1-5>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",3,True,3
+kR,THROAT,jval,PALATE,"Two Sanskrit verbal roots:
+
+Root A: **kR** (THROAT group) — to do, make, perform, accomplish, cause, produce...
+Root B: **jval** (PALATE group) — to blaze, shine, burn; to be bright...
+
+On a scale of 1-5, how semantically similar are these two roots?
+(1 = completely unrelated, 5 = very similar in meaning)
+
+Respond with JSON only:
+{
+  ""similarity"": <integer 1-5>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",3,True,3
+kR,THROAT,jash,PALATE,"Two Sanskrit verbal roots:
+
+Root A: **kR** (THROAT group) — to do, make, perform, accomplish, cause, produce...
+Root B: **jash** (PALATE group) — to devour, eat; to consume...
+
+On a scale of 1-5, how semantically similar are these two roots?
+(1 = completely unrelated, 5 = very similar in meaning)
+
+Respond with JSON only:
+{
+  ""similarity"": <integer 1-5>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",3,False,3
+kR,THROAT,yaj,PALATE,"Two Sanskrit verbal roots:
+
+Root A: **kR** (THROAT group) — to do, make, perform, accomplish, cause, produce...
+Root B: **yaj** (PALATE group) — to worship, offer, sacrifice; to consecrate...
+
+On a scale of 1-5, how semantically similar are these two roots?
+(1 = completely unrelated, 5 = very similar in meaning)
+
+Respond with JSON only:
+{
+  ""similarity"": <integer 1-5>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",3,True,3
+kR,THROAT,yam,PALATE,"Two Sanskrit verbal roots:
+
+Root A: **kR** (THROAT group) — to do, make, perform, accomplish, cause, produce...
+Root B: **yam** (PALATE group) — to hold, sustain, support; to restrain...
+
+On a scale of 1-5, how semantically similar are these two roots?
+(1 = completely unrelated, 5 = very similar in meaning)
+
+Respond with JSON only:
+{
+  ""similarity"": <integer 1-5>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",3,False,3
+kR,THROAT,yu,PALATE,"Two Sanskrit verbal roots:
+
+Root A: **kR** (THROAT group) — to do, make, perform, accomplish, cause, produce...
+Root B: **yu** (PALATE group) — to mix; to separate; to unite...
+
+On a scale of 1-5, how semantically similar are these two roots?
+(1 = completely unrelated, 5 = very similar in meaning)
+
+Respond with JSON only:
+{
+  ""similarity"": <integer 1-5>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",3,False,3
+kR,THROAT,yuj,PALATE,"Two Sanskrit verbal roots:
+
+Root A: **kR** (THROAT group) — to do, make, perform, accomplish, cause, produce...
+Root B: **yuj** (PALATE group) — to join, unite; to yoke; to concentrate...
+
+On a scale of 1-5, how semantically similar are these two roots?
+(1 = completely unrelated, 5 = very similar in meaning)
+
+Respond with JSON only:
+{
+  ""similarity"": <integer 1-5>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",3,False,3
+kR,THROAT,car,PALATE,"Two Sanskrit verbal roots:
+
+Root A: **kR** (THROAT group) — to do, make, perform, accomplish, cause, produce...
+Root B: **car** (PALATE group) — to move, walk, wander; to practice, perform...
+
+On a scale of 1-5, how semantically similar are these two roots?
+(1 = completely unrelated, 5 = very similar in meaning)
+
+Respond with JSON only:
+{
+  ""similarity"": <integer 1-5>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",3,False,3
+kR,THROAT,chad,PALATE,"Two Sanskrit verbal roots:
+
+Root A: **kR** (THROAT group) — to do, make, perform, accomplish, cause, produce...
+Root B: **chad** (PALATE group) — to cover, clothe; to please...
+
+On a scale of 1-5, how semantically similar are these two roots?
+(1 = completely unrelated, 5 = very similar in meaning)
+
+Respond with JSON only:
+{
+  ""similarity"": <integer 1-5>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",3,False,3
+kR,THROAT,chid,PALATE,"Two Sanskrit verbal roots:
+
+Root A: **kR** (THROAT group) — to do, make, perform, accomplish, cause, produce...
+Root B: **chid** (PALATE group) — to cut off, divide, remove; to destroy...
+
+On a scale of 1-5, how semantically similar are these two roots?
+(1 = completely unrelated, 5 = very similar in meaning)
+
+Respond with JSON only:
+{
+  ""similarity"": <integer 1-5>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",3,False,3
+kR,THROAT,ji,PALATE,"Two Sanskrit verbal roots:
+
+Root A: **kR** (THROAT group) — to do, make, perform, accomplish, cause, produce...
+Root B: **ji** (PALATE group) — to conquer, excel; to acquire by conquest...
+
+On a scale of 1-5, how semantically similar are these two roots?
+(1 = completely unrelated, 5 = very similar in meaning)
+
+Respond with JSON only:
+{
+  ""similarity"": <integer 1-5>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",3,True,3
+kR,THROAT,jIv,PALATE,"Two Sanskrit verbal roots:
+
+Root A: **kR** (THROAT group) — to do, make, perform, accomplish, cause, produce...
+Root B: **jIv** (PALATE group) — to live, be alive; to breathe, survive...
+
+On a scale of 1-5, how semantically similar are these two roots?
+(1 = completely unrelated, 5 = very similar in meaning)
+
+Respond with JSON only:
+{
+  ""similarity"": <integer 1-5>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",3,False,3

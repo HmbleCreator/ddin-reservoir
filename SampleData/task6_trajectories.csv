@@ -1,0 +1,43 @@
+word,prompt,correct_arc
+"prāna","The Sanskrit word 'prāna' (life breath) consists of the sequence: 'pa' (Labial origin) -> 'ra' (Cerebral origin) -> 'ā' (Throat origin) -> 'ņa' (Cerebral-Nasal origin).
+
+Based on the physical articulation geometry from the Phonosemantic framework, which phenomenological event arc does this trajectory enact?
+Arc A: Lip threshold crossing -> Ascending vital energy -> Maximum interior openness -> Resonant return to ground.
+Arc B: Sustained interior closure -> Downward heavy motion -> Transformation of state -> Cutting separation.
+
+Respond with JSON only: { ""selected_arc"": """", ""confidence"": 0, ""reasoning"": """" }","A"
+"aham","The Sanskrit word 'aham' (The Self) consists of the sequence: 'a' (Throat origin, deepest interior) -> 'ha' (Visarga/breath origin) -> 'm' (Labial closure, nasal seal).
+
+Based on the physical articulation geometry from the Phonosemantic framework, which phenomenological event arc does this trajectory enact?
+Arc A: Sharp boundary separation -> Ascending cognitive energy -> Transformation into action.
+Arc B: Emergence from interior source -> Radiating outward expression -> Return to self-ground/seal.
+
+Respond with JSON only: { ""selected_arc"": """", ""confidence"": 0, ""reasoning"": """" }","B"
+"namaskāra","The Sanskrit word 'namaskāra' (greeting) consists of the sequence: 'na' (Dental nasal) -> 'ma' (Labial closure) -> 's' (Dental fricative) -> 'kā' (Throat + open vowel).
+
+Based on the physical articulation geometry from the Phonosemantic framework, which phenomenological event arc does this trajectory enact?
+Arc A: Dissolution of self-boundary -> Return to self-ground -> Acknowledgment from own ground -> Maximum openness toward the other.
+Arc B: Containment of breath -> Upward motion of self -> Piercing separation -> Closure.
+
+Respond with JSON only: { ""selected_arc"": """", ""confidence"": 0, ""reasoning"": """" }","A"
+"rakṣa","The Sanskrit word 'rakṣa' (protection) traces the articulatory trajectory: Cerebral -> Throat -> Cerebral.
+
+Based on the physical articulation geometry from the Phonosemantic framework, which phenomenological event arc does this trajectory enact?
+Arc A: Containment boundary -> Transformation of state -> Lip closure.
+Arc B: Ascending motion/energy -> Interior source/causation -> Ascending motion/energy.
+
+Respond with JSON only: { ""selected_arc"": """", ""confidence"": 0, ""reasoning"": """" }","B"
+"cit","The Sanskrit root 'cit' (to perceive, know, discern) consists of the sequence: 'ca' (Palatal origin) -> 'i' (Palatal vowel) -> 'ta' (Dental origin).
+
+Based on the physical articulation geometry from the Phonosemantic framework, which phenomenological event arc does this trajectory enact?
+Arc A: Inner discrimination/knowing -> Transformation -> Separation/Cutting/Discernment.
+Arc B: Expansion/Causation -> Lip threshold -> Containment.
+
+Respond with JSON only: { ""selected_arc"": """", ""confidence"": 0, ""reasoning"": """" }","A"
+"gam","The Sanskrit root 'gam' (to go, approach) consists of the sequence: 'ga' (Throat origin) -> 'a' (Throat open) -> 'm' (Labial closure).
+
+Based on the physical articulation geometry from the Phonosemantic framework, which phenomenological event arc does this trajectory enact?
+Arc A: Pure transformation/change -> Separation -> Extension.
+Arc B: Originating from deep interior/causation -> Expansion -> Final containment/boundary.
+
+Respond with JSON only: { ""selected_arc"": """", ""confidence"": 0, ""reasoning"": """" }","B"

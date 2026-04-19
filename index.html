@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DDIN | Devavāṇī-Derived Interpretable Network</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,700;1,300&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0a;
+            --surface: #111111;
+            --surface-2: #181818;
+            --text: #d8d8d2;
+            --text-dim: #888880;
+            --accent: #00e87a;
+            --accent-dim: #003d20;
+            --accent-faint: #001a0e;
+            --warn: #e8a000;
+            --warn-dim: #3d2800;
+            --mono: 'JetBrains Mono', monospace;
+            --serif: 'Playfair Display', serif;
+            --border: #2a2a2a;
+            --border-accent: #00a855;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: var(--mono);
+            font-size: 14px;
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background: repeating-linear-gradient(
+                0deg,
+                transparent,
+                transparent 2px,
+                rgba(0,0,0,0.03) 2px,
+                rgba(0,0,0,0.03) 4px
+            );
+            pointer-events: none;
+            z-index: 900;
+        }
+
+        .wrap {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* ── Header ── */
+        header {
+            padding: 5rem 2rem 4rem;
+            max-width: 1100px;
+            margin: 0 auto;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .status-row {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.2rem 0.7rem;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            border: 1px solid;
+        }
+
+        .badge-complete {
+            background: var(--accent-dim);
+            color: var(--accent);
+            border-color: var(--border-accent);
+        }
+
+        .badge-retracted {
+            background: var(--warn-dim);
+            color: var(--warn);
+            border-color: #7a5200;
+        }
+
+        .phase-label {
+            color: var(--text-dim);
+            font-size: 0.8rem;
+            letter-spacing: 0.08em;
+        }
+
+        h1 {
+            font-family: var(--serif);
+            font-size: clamp(2.8rem, 8vw, 5.5rem);
+            font-style: italic;
+            line-height: 1.05;
+            margin-bottom: 1.5rem;
+            color: var(--text);
+            max-width: 800px;
+        }
+
+        .sub {
+            font-size: 0.9rem;
+            color: var(--text-dim);
+            max-width: 580px;
+            line-height: 1.8;
+        }
+
+        .sub em {
+            color: var(--accent);
+            font-style: normal;
+        }
+
+        /* ── Section headers ── */
+        .section-label {
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+        }
+
+        h2 {
+            font-family: var(--serif);
+            font-size: clamp(1.8rem, 4vw, 2.8rem);
+            font-style: italic;
+            line-height: 1.1;
+            color: var(--text);
+            margin-bottom: 1.5rem;
+        }
+
+        section {
+            padding: 5rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        section:last-of-type { border-bottom: none; }
+
+        .prose { max-width: 680px; }
+
+        .prose p {
+            font-size: 1rem;
+            color: var(--text-dim);
+            margin-bottom: 1.2rem;
+            line-height: 1.8;
+        }
+
+        .prose p strong {
+            color: var(--text);
+            font-weight: 700;
+        }
+
+        /* ── Card grid — FIXED to 2×2 ── */
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);   /* strict 2 columns */
+            gap: 1px;
+            background: var(--border);
+            border: 1px solid var(--border);
+            margin-top: 3rem;
+        }
+
+        /* Survives section: 4 cards also 2×2 */
+        .cards-survives {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1px;
+            background: var(--border);
+            border: 1px solid var(--border);
+            margin-top: 3rem;
+        }
+
+        .card {
+            background: var(--surface);
+            padding: 2rem;
+        }
+
+        .card-label {
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-dim);
+            margin-bottom: 0.8rem;
+        }
+
+        .card-metric {
+            font-size: 2.8rem;
+            font-weight: 700;
+            color: var(--accent);
+            display: block;
+            margin-bottom: 0.8rem;
+            line-height: 1;
+        }
+
+        .card-metric.neutral { color: var(--text); }
+
+        .card p {
+            font-size: 0.88rem;
+            color: var(--text-dim);
+            line-height: 1.7;
+        }
+
+        /* ── Results table ── */
+        .results {
+            margin-top: 2.5rem;
+            border: 1px solid var(--border);
+        }
+
+        .result-row {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 2rem;
+            align-items: center;
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid var(--border);
+            transition: background 0.15s;
+        }
+
+        .result-row:last-child { border-bottom: none; }
+        .result-row:hover { background: var(--surface); }
+
+        .result-label { color: var(--text-dim); font-size: 0.9rem; }
+
+        .result-value {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 0.9rem;
+            text-align: right;
+            white-space: nowrap;
+        }
+
+        .result-value.neutral { color: var(--text); }
+
+        /* ── Retraction notice ── */
+        .retraction {
+            border: 1px solid #7a5200;
+            background: var(--warn-dim);
+            padding: 1.5rem 2rem;
+            margin-top: 3rem;
+        }
+
+        .retraction-header {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .retraction p {
+            font-size: 0.88rem;
+            color: #c48a00;
+            line-height: 1.7;
+        }
+
+        .retraction strong { color: var(--warn); }
+
+        /* ── Diagnosis block ── */
+        .diagnosis {
+            margin-top: 2.5rem;
+            display: grid;
+            gap: 1px;
+            background: var(--border);
+            border: 1px solid var(--border);
+        }
+
+        .diagnosis-item {
+            background: var(--surface);
+            padding: 1.5rem 2rem;
+            display: grid;
+            grid-template-columns: 1.5rem 1fr;
+            gap: 1rem;
+            align-items: start;
+        }
+
+        .diag-icon {
+            font-size: 1rem;
+            color: var(--accent);
+            margin-top: 0.1rem;
+        }
+
+        .diagnosis-item p {
+            font-size: 0.9rem;
+            color: var(--text-dim);
+            line-height: 1.7;
+        }
+
+        .diagnosis-item p strong { color: var(--text); }
+
+        /* ── What's next ── */
+        .next-list {
+            margin-top: 2rem;
+            list-style: none;
+            display: grid;
+            gap: 1px;
+            background: var(--border);
+            border: 1px solid var(--border);
+        }
+
+        .next-list li {
+            background: var(--surface);
+            padding: 1.2rem 1.5rem;
+            font-size: 0.9rem;
+            color: var(--text-dim);
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 1rem;
+            align-items: start;
+        }
+
+        .next-list li::before {
+            content: '→';
+            color: var(--accent);
+            font-weight: 700;
+        }
+
+        .next-list li strong { color: var(--text); }
+
+        /* ── Layer stack ── */
+        .stack {
+            margin-top: 2.5rem;
+            display: grid;
+            gap: 1px;
+            background: var(--border);
+            border: 1px solid var(--border);
+        }
+
+        .stack-layer {
+            background: var(--surface);
+            padding: 1.2rem 1.5rem;
+            display: grid;
+            grid-template-columns: 8rem 1fr auto;
+            gap: 1.5rem;
+            align-items: center;
+        }
+
+        .layer-name {
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            color: var(--text-dim);
+            text-transform: uppercase;
+        }
+
+        .layer-desc { font-size: 0.88rem; color: var(--text-dim); }
+
+        .layer-status {
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        .status-proven { color: var(--accent); }
+        .status-partial { color: var(--warn); }
+        .status-open { color: #666; }
+
+        /* ── Footer ── */
+        footer {
+            padding: 3rem 0;
+            border-top: 1px solid var(--border);
+        }
+
+        .footer-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+
+        footer p { font-size: 0.8rem; color: var(--text-dim); }
+
+        .links { display: flex; gap: 2rem; flex-wrap: wrap; }
+
+        .links a {
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 0.8rem;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+
+        .links a:hover { border-color: var(--accent); }
+
+        /* ── Animations ── */
+        .fade-up {
+            opacity: 0;
+            transform: translateY(16px);
+            animation: fadeUp 0.7s ease forwards;
+        }
+
+        @keyframes fadeUp {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .d1 { animation-delay: 0.1s; }
+        .d2 { animation-delay: 0.25s; }
+        .d3 { animation-delay: 0.4s; }
+
+        @media (max-width: 640px) {
+            header { padding: 3rem 1.5rem; }
+            .cards,
+            .cards-survives { grid-template-columns: 1fr; }
+            .stack-layer { grid-template-columns: 1fr; gap: 0.3rem; }
+            .result-row { grid-template-columns: 1fr; gap: 0.3rem; }
+            .result-value { text-align: left; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="status-row fade-up d1">
+            <span class="badge badge-complete">Phase 13 Complete</span>
+            <span class="phase-label">13 phases · 56+ experiments · 4 papers</span>
+        </div>
+        <h1 class="fade-up d2">The architecture works.<br>The mapping was wrong.</h1>
+        <p class="sub fade-up d3">
+            The DDIN is a neuromorphic spiking reservoir that encodes language
+            from the physics of sound production — <em>without backpropagation,
+            without learned weights, without labeled data.</em>
+            After 13 phases, the program produced a complete mechanistic diagnosis:
+            the reservoir recovers articulatory structure, but the semantic taxonomy
+            tested was near-orthogonal to what acoustic formants encode.
+            That is a precise finding, not a failure.
+        </p>
+    </header>
+
+    <!-- WHAT WAS BUILT -->
+    <section>
+        <div class="wrap">
+            <div class="section-label">The Architecture</div>
+            <h2>Four layers. Zero trained weights.</h2>
+
+            <div class="prose">
+                <p>
+                    The DDIN encodes verbal roots by processing their acoustic formant
+                    trajectories through a heterogeneous AdEx spiking reservoir.
+                    Neurons have different decay rates and input sensitivities — structure
+                    is in the physics of the network, not in its learned parameters.
+                </p>
+                <p>
+                    Per-neuron BCM homeostasis prevents the Epileptiform Synchrony Limit:
+                    the phase transition where naive scaling of membrane time constants
+                    collapses the network into synchronous seizure at ~500 Hz, destroying
+                    all semantic structure. This engineering contribution is independent
+                    of any labeling question.
+                </p>
+            </div>
+
+            <div class="stack">
+                <div class="stack-layer">
+                    <span class="layer-name">Parā</span>
+                    <span class="layer-desc">AdEx spiking reservoir dynamics. The physical substrate.</span>
+                    <span class="layer-status status-proven">Proven</span>
+                </div>
+                <div class="stack-layer">
+                    <span class="layer-name">Paśyantī</span>
+                    <span class="layer-desc">Coherent attractor states. BCM homeostasis prevents ESL.</span>
+                    <span class="layer-status status-proven">Proven</span>
+                </div>
+                <div class="stack-layer">
+                    <span class="layer-name">Madhyamā</span>
+                    <span class="layer-desc">Structured semantic subgraphs. Dhātu inter-communication.</span>
+                    <span class="layer-status status-partial">Partial</span>
+                </div>
+                <div class="stack-layer">
+                    <span class="layer-name">Vaikharī</span>
+                    <span class="layer-desc">Surface output. Requires a phonetic embedding space not yet formalized.</span>
+                    <span class="layer-status status-open">Open</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHAT WAS FOUND -->
+    <section>
+        <div class="wrap">
+            <div class="section-label">Results</div>
+            <h2>What the 56 experiments actually showed.</h2>
+
+            <!-- 2×2 grid: 4 cards, clean layout -->
+            <div class="cards">
+                <div class="card">
+                    <div class="card-label">Locus Recovery</div>
+                    <span class="card-metric">0.0494</span>
+                    <p>ARI, p &lt; 0.001. The reservoir recovers articulatory
+                    place-of-articulation from acoustic formants above chance.
+                    The architecture processes acoustic information correctly.</p>
+                </div>
+                <div class="card">
+                    <div class="card-label">Semantic Recovery</div>
+                    <span class="card-metric neutral">0.013</span>
+                    <p>ARI, not significant. Acoustic-only semantic recovery
+                    is at chance level for the Monier-Williams taxonomy.
+                    The taxonomy, not the reservoir, is the constraint.</p>
+                </div>
+                <div class="card">
+                    <div class="card-label">Taxonomy Overlap</div>
+                    <span class="card-metric neutral">0.0095</span>
+                    <p>ARI between locus and semantic taxonomies. Nearly orthogonal.
+                    The two systems were built on different principles — acoustic
+                    physics vs. English glosses. This is the precise diagnosis.</p>
+                </div>
+                <div class="card">
+                    <div class="card-label">ESL Resolution</div>
+                    <span class="card-metric">Zero</span>
+                    <p>Epileptiform synchrony events across all 2,000-root runs.
+                    BCM homeostasis maintains stable asynchronous firing
+                    at 2.8 spikes/root continuously.</p>
+                </div>
+            </div>
+
+            <div class="results" style="margin-top: 4rem;">
+                <div class="result-row">
+                    <span class="result-label">Acoustic → Articulatory locus (Exp 56)</span>
+                    <span class="result-value">ARI 0.0494, p &lt; 0.001</span>
+                </div>
+                <div class="result-row">
+                    <span class="result-label">Acoustic → Semantic axes (Phase 12)</span>
+                    <span class="result-value neutral">ARI 0.013, chance</span>
+                </div>
+                <div class="result-row">
+                    <span class="result-label">Locus ↔ Semantic taxonomy (Exp 57)</span>
+                    <span class="result-value neutral">ARI 0.0095, near-orthogonal</span>
+                </div>
+                <div class="result-row">
+                    <span class="result-label">Spectral entropy → ARI correlation</span>
+                    <span class="result-value">r = −0.53</span>
+                </div>
+                <div class="result-row">
+                    <span class="result-label">ESL: synchrony boundary</span>
+                    <span class="result-value">~500 Hz, formal theorem proven</span>
+                </div>
+                <div class="result-row">
+                    <span class="result-label">BCM homeostasis: stable running</span>
+                    <span class="result-value">2.8 spikes/root, no seizures</span>
+                </div>
+            </div>
+
+            <div class="retraction" style="margin-top: 3rem;">
+                <div class="retraction-header">
+                    <span class="badge badge-retracted">Retracted</span>
+                    <span style="font-size: 0.8rem; color: var(--warn);">Paper 4 — April 2026</span>
+                </div>
+                <p>
+                    An earlier result reporting <strong>ARI = 0.9758</strong> ("Semantic Pressure
+                    and Zero-Shot Generalization") was identified as an artifact of label leakage:
+                    the labeling function derived semantic axis labels from the same initial consonant
+                    used for acoustic encoding. The result measured consonant-class separation, not
+                    phonosemantic recovery. The paper has been retracted from Zenodo.
+                    Papers 1, 2, and 3 stand with correction notes where relevant.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- THE DIAGNOSIS -->
+    <section>
+        <div class="wrap">
+            <div class="section-label">Mechanistic Diagnosis</div>
+            <h2>Why the mapping failed.</h2>
+
+            <div class="prose">
+                <p>
+                    The reservoir demonstrably processes acoustic information. The negative
+                    result for semantic recovery does not mean dynamics fail to carry meaning.
+                    It means the semantic target was built on different foundations from the
+                    acoustic signal.
+                </p>
+            </div>
+
+            <div class="diagnosis">
+                <div class="diagnosis-item">
+                    <span class="diag-icon">①</span>
+                    <p>
+                        <strong>What acoustic formants encode:</strong> Place of articulation —
+                        where in the vocal tract a sound is made. F2 locus equations distinguish
+                        labial from velar from dental in a physically real coordinate system.
+                    </p>
+                </div>
+                <div class="diagnosis-item">
+                    <span class="diag-icon">②</span>
+                    <p>
+                        <strong>What the Monier-Williams taxonomy encodes:</strong> Surface semantic
+                        categories (Motion, Separation, Containment, Experiential, Transfer) assembled
+                        by 19th-century Western lexicographers from English glosses. Not built from
+                        articulatory structure.
+                    </p>
+                </div>
+                <div class="diagnosis-item">
+                    <span class="diag-icon">③</span>
+                    <p>
+                        <strong>The measured gap:</strong> Semantic-locus ARI = 0.0095. The two
+                        taxonomies are nearly orthogonal. Motion roots begin with velars, palatals,
+                        and dentals in roughly equal proportion. No acoustic feature can bridge
+                        orthogonal spaces.
+                    </p>
+                </div>
+                <div class="diagnosis-item">
+                    <span class="diag-icon">④</span>
+                    <p>
+                        <strong>What this means:</strong> The question was wrong, not the architecture.
+                        The right question is: what semantic space is <em>native</em> to the articulatory
+                        geometry — not what external categories it can predict. That is the open problem.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHAT'S OPEN -->
+    <section>
+        <div class="wrap">
+            <div class="section-label">Open Problems</div>
+            <h2>Where the program points next.</h2>
+
+            <div class="prose">
+                <p>
+                    The 56 experiments defined a precise boundary. The reservoir carries
+                    articulatory signal. The Monier-Williams taxonomy cannot be reached from
+                    that signal. The open question is whether a semantics built from within
+                    the Sanskrit tradition — Pāṇini's kāraka system, the Dhātu semantic
+                    groupings, the Nirukta classifications — aligns with articulatory structure
+                    in a way that Monier-Williams does not.
+                </p>
+                <p>
+                    This is an empirically testable hypothesis. It requires a pre-specified
+                    Sanskrit-tradition taxonomy, a falsification criterion stated before
+                    running any experiments, and the smallest possible test of one specific
+                    geometric prediction.
+                </p>
+            </div>
+
+            <ul class="next-list">
+                <li>
+                    <strong>The geodesic question:</strong> Do roots from the same Pāṇinian
+                    semantic class trace geodesics with similar curvature properties in the
+                    articulatory space? If yes: meaning is in the shape of the path.
+                    Pre-register the falsification criterion before testing.
+                </li>
+                <li>
+                    <strong>The Lagrangian of articulation:</strong> Formalize the transition
+                    cost function for the vocal tract. Pāṇini's Sandhi rules are empirical
+                    observations of this Lagrangian. The mathematical task is to derive it
+                    from vocal tract geometry and show the rules follow from it.
+                </li>
+                <li>
+                    <strong>The BCM benchmark:</strong> Test BCM homeostasis stability on
+                    N-MNIST or DVS-CIFAR10. Connect the ESL engineering result to a standard
+                    neuromorphic benchmark where the community can verify and extend it.
+                </li>
+                <li>
+                    <strong>The grounding-generalization question:</strong> Do physically grounded
+                    phonological representations generalize better to unseen phoneme combinations
+                    than statistically learned ones? This is the central testable claim of the
+                    theoretical framework.
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- WHAT SURVIVES — 4 cards, 2×2 -->
+    <section>
+        <div class="wrap">
+            <div class="section-label">What Survives</div>
+            <h2>Four claims the program established.</h2>
+
+            <div class="cards-survives">
+                <div class="card">
+                    <div class="card-label">Engineering</div>
+                    <span class="card-metric" style="font-size: 1.8rem; line-height: 1.2;">ESL is a<br>phase transition</span>
+                    <p>Formally proven: LIF networks with continuous Poisson input
+                    collapse into synchronous seizure at a critical τ_m threshold.
+                    BCM homeostasis resolves it. This holds independent of any
+                    semantic labeling question.</p>
+                </div>
+                <div class="card">
+                    <div class="card-label">Empirical</div>
+                    <span class="card-metric" style="font-size: 1.8rem; line-height: 1.2;">Locus is<br>recoverable</span>
+                    <p>The reservoir extracts articulatory place-of-articulation
+                    from acoustic formant sequences above chance (p &lt; 0.001).
+                    Sequential dynamics carry physical acoustic structure.
+                    The architecture is not broken.</p>
+                </div>
+                <div class="card">
+                    <div class="card-label">Theoretical</div>
+                    <span class="card-metric" style="font-size: 1.8rem; line-height: 1.2;">The space<br>is wrong</span>
+                    <p>Semantic axes built from statistical glosses are orthogonal
+                    to articulatory structure. The embedding space for grounded
+                    language must be built from the physics of articulation,
+                    not from co-occurrence statistics.</p>
+                </div>
+                <div class="card">
+                    <div class="card-label">Methodological</div>
+                    <span class="card-metric" style="font-size: 1.8rem; line-height: 1.2;">Audit<br>discipline</span>
+                    <p>A labeling circularity was identified, traced, and corrected
+                    across 13 phases. The retraction of Paper 4 and the mechanistic
+                    characterization in Paper 5 demonstrate that the program
+                    treats falsification as rigorously as confirmation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrap">
+            <div class="footer-inner">
+                <p>DDIN Research Program &nbsp;·&nbsp; Amit Kumar &nbsp;·&nbsp; Phase 13 Complete, April 2026</p>
+                <div class="links">
+                    <a href="https://zenodo.org/communities/ddin">Zenodo Papers</a>
+                    <a href="https://github.com/HmbleCreator/ddin-reservoir">GitHub</a>
+                    <a href="#">Research Log</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const io = new IntersectionObserver((entries) => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    e.target.style.opacity = '1';
+                    e.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, { threshold: 0.08 });
+
+        document.querySelectorAll('section').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(14px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            io.observe(el);
+        });
+    </script>
+</body>
+</html>

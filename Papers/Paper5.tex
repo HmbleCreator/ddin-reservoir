@@ -1,0 +1,715 @@
+\documentclass{article}
+
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{microtype}
+\usepackage[numbers,compress]{natbib}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue]{hyperref}
+
+\titleformat{\section}{\large\bfseries}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.5em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries\itshape}{\thesubsubsection}{0.5em}{}
+
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+\onehalfspacing
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{definition}{Definition}
+\newtheorem{proposition}{Proposition}
+
+\title{\textbf{Acoustic Formant Features Are Insufficient for Semantic\\
+Axis Recovery but Sufficient for Articulatory Locus Classification\\
+in Sanskrit Verbal Roots: A Spiking Reservoir Computing Investigation}}
+
+\author{Amit Kumar\\
+\small Independent Researcher, Bihar, India\\
+\small \href{mailto:c7ul6g@gmail.com}{c7ul6g@gmail.com}\\[4pt]
+\small ORCID: \href{https://orcid.org/0009-0003-3362-5461}{0009-0003-3362-5461}}
+
+\date{%
+  April 2026\\[4pt]
+  \small\textit{Preprint — Not yet peer reviewed}\\[2pt]
+  \small\textcopyright\ 2026 Amit Kumar. Licensed under
+  \href{https://creativecommons.org/licenses/by/4.0/}{CC BY 4.0}%
+}
+
+\begin{document}
+\maketitle
+
+\begin{center}
+\small\textit{This paper reports a planned negative result arising from
+a systematic audit of the DDIN research program (Papers 1--3). The audit
+identified a labeling circularity in earlier work; this paper presents
+the corrected empirical findings and their implications.}
+\end{center}
+
+%% ═══════════════════════════════════════════════════════════════════
+\begin{abstract}
+The phonosemantic hypothesis holds that in motivated sign systems such
+as Sanskrit, the acoustic phonological form of a verbal root should carry
+statistically detectable information about its semantic category. We test
+this hypothesis using an Adaptive Exponential Leaky Integrate-and-Fire
+(AdEx) spiking reservoir with per-neuron BCM homeostasis, processing the
+full 2,000-root Pāṇinian \textit{Dhātupāṭha} under three controlled
+input conditions: acoustic features only, semantic prior only, and full
+acoustic-semantic fusion.
+
+Under a rigorous labeling regime derived from Monier-Williams dictionary
+glosses with word-boundary substring matching (coverage: 76.2\%,
+1,722~roots), we find: (A)~acoustic-only ARI $= 0.013$, indistinguishable
+from chance; (B)~prior-only ARI $= 0.70$; (C)~full-fusion ARI $= 0.69$,
+representing a negative marginal acoustic contribution ($\Delta = -0.01$).
+A Speed-1 experiment confirms ARI $= 0.016$ at the initial consonant.
+
+A Phase~13 architectural validation experiment rules out reservoir failure
+as the cause: the reservoir recovers the Pāṇinian articulatory locus
+taxonomy (five consonant place-of-articulation classes) at ARI $= 0.0494$
+($p < 0.001$). A semantic-locus correlation experiment finds ARI $= 0.0095$
+between the Monier-Williams semantic taxonomy and the locus taxonomy,
+quantifying their near-orthogonality directly. The reservoir fails to
+recover the semantic taxonomy not because it cannot process acoustic
+information, but because the target taxonomy does not align with the
+articulatory structure the acoustic features encode.
+
+These findings identify the failure mechanism precisely: first-order
+acoustic formants are insufficient for the Monier-Williams semantic
+taxonomy, but sufficient for articulatory locus classification. The
+architecture is functional; the task-feature mismatch is the binding
+constraint. Two engineering contributions stand independently: the
+Epileptiform Synchrony Limit characterization~\citep{kumar2026esl} and
+the BCM homeostasis architecture that resolves it.
+
+\smallskip
+\noindent\textbf{Keywords:} phonosemantics, Sanskrit, spiking neural
+networks, reservoir computing, AdEx, BCM homeostasis, negative result,
+Dhātupāṭha, acoustic insufficiency, articulatory locus, motivated sign
+\end{abstract}
+
+%% ═══════════════════════════════════════════════════════════════════
+\section{Introduction}
+
+\subsection{The Phonosemantic Hypothesis}
+
+The hypothesis of phonosemantic correspondence holds that in certain
+languages, the acoustic form of a word is non-arbitrarily related to its
+meaning \citep{hinton1994,magnus2001,blasi2016}. This position challenges
+the Saussurean principle of the arbitrariness of the linguistic sign
+\citep{saussure1916}, which underlies virtually all modern statistical
+language modeling. Sanskrit has been proposed as a language in which
+this correspondence has been most rigorously formalized through the
+Pāṇinian grammatical tradition \citep{cardona1997}: the
+\textit{Dhātupāṭha}, a catalog of approximately 2,000 verbal roots
+classified by semantic class (\textit{gaṇa}), provides the experimental
+substrate against which this claim can be tested computationally.
+
+The DDIN (Devavāṇī-Derived Interpretable Network) research program
+\citep{kumar2026phonosemantic,kumar2026ddin,kumar2026esl} was designed
+to test whether acoustic phonological features derived from locus theory
+and the International Phonetic Alphabet can organize Sanskrit verbal roots
+into their traditional semantic classes without semantic supervision. Papers
+1 and 2 of the program reported above-chance Adjusted Rand Index (ARI)
+results on a 150-root benchmark, and Paper 4 reported ARI $= 0.9758$ on
+the full 2,000-root corpus.
+
+\subsection{The Labeling Audit}
+
+A systematic audit of the experimental code underlying Papers 2 and 4
+identified a structural circularity in the semantic axis label assignment
+function \texttt{extract\_artha\_stem\_tensor()}. In the versions used
+to generate those results, labels were assigned based on the initial
+consonant of the verbal root (\texttt{root\_slp1[0].lower()}), mapping
+velars to Motion, palatals to Experiential, retroflex to Transformation,
+dentals to Separation, and labials to Containment. The acoustic feature
+vector was simultaneously derived from the same initial consonant via
+locus equations and formant tables. The ARI therefore measured the
+network's ability to separate \emph{consonant place classes} from each
+other---a task trivially solved by the input encoding itself---rather than
+genuine acoustic-to-semantic recovery.
+
+This paper reports the results of re-running the key experiments with a
+corrected labeling function that derives semantic axis membership
+exclusively from dictionary gloss keywords matched against the
+Monier-Williams Sanskrit-English Dictionary \citep{monierWilliams1899}
+using word-boundary tokenization. The corrected function is described in
+Section~\ref{sec:methods}.
+
+\subsection{Scope of This Paper}
+
+This paper makes four claims:
+
+\begin{enumerate}[noitemsep]
+  \item Under honest gloss-based labeling, acoustic-only ARI is 0.013
+    (chance level) across multiple acoustic encoding schemes.
+  \item Full acoustic-semantic fusion ARI (0.69) is \emph{lower} than
+    prior-only ARI (0.70), indicating the acoustic channel contributes
+    noise, not signal.
+  \item The Speed-1 finding of Paper 2 (ARI $= 0.20$ at first phoneme)
+    does not replicate under corrected labels (ARI $= 0.016$).
+  \item The BCM homeostasis engineering contribution and the ESL
+    characterization \citep{kumar2026esl} are independent of the
+    labeling regime and remain valid.
+\end{enumerate}
+
+%% ═══════════════════════════════════════════════════════════════════
+\section{Methods}
+\label{sec:methods}
+
+\subsection{Corpus and Labeling}
+
+The corpus is the full \textit{Dhātupāṭha} sourced from the
+\texttt{ashtadhyayi.com} dataset \citep{goyal2015}, providing 2,259
+verbal roots with Devanagari transliteration and gloss in Sanskrit.
+Roots are transliterated to SLP1 encoding for processing.
+
+\textbf{Corrected label assignment.} For each root, the semantic axis
+label is derived from the SLP1 transliteration of the dictionary gloss
+(\textit{artha}) using word-boundary tokenization:
+
+\begin{verbatim}
+tokens = re.split(r'[\s,;।]+', artha_slp1.lower())
+for stem in axis_stems[axis]:
+    if any(t.startswith(stem) for t in tokens):
+        tensor[axis] = 1.0
+\end{verbatim}
+
+Stems are drawn from a 300-entry Monier-Williams derived vocabulary
+covering the five semantic axes (Motion: \textit{gat, cal, gam, car,
+kram, \ldots}; Separation: \textit{hiMs, Bed, Cid, nAS, \ldots};
+Containment: \textit{Dar, pAl, rakz, banD, \ldots}; Experiential:
+\textit{dfS, Sru, jYA, man, \ldots}; Transfer: \textit{dA, veza, yAc,
+niD, \ldots}). Roots with no matched stem receive the uniform prior
+$[0.2, 0.2, 0.2, 0.2, 0.2]$ and are excluded from labeled evaluation.
+Coverage under this scheme is 76.2\% (1,722 of 2,259 roots).
+
+\textbf{Ablation baseline.} K-Means ($k=5$, 100 restarts) applied
+directly to the 5D prior vectors achieves ARI $= 0.70$, establishing
+the gloss-label floor. An MLP classifier (two hidden layers, 64 and 32
+units, 5-fold cross-validation) achieves ARI $= 1.0$ on the prior
+vectors, confirming perfect linear separability of the gloss-based
+taxonomy.
+
+\subsection{Acoustic Feature Encoding (23D)}
+
+Each root is encoded as a 23-dimensional acoustic vector by
+concatenation of three feature groups:
+
+\textbf{Locus equations (6D).} $F_1$ and $F_2$ formant transition
+coefficients for the initial consonant, derived from IPA locus equation
+tables \citep{sussman1991}. Individual phoneme-specific values are used
+within place classes (e.g., /p/ at $(F_1, F_2) = (0.35, 0.75)$,
+/b/ at $(0.38, 0.72)$, /m/ at $(0.42, 0.68)$) to provide
+within-class variation absent from the original class-level encoding.
+
+\textbf{Phonation profile (5D).} Binary features encoding voicing,
+aspiration, nasality, sibilance, and approximant status of the initial
+consonant.
+
+\textbf{Steady-state formants (12D).} $F_1$ and $F_2$ values for up
+to six phoneme positions, zero-padded for shorter roots.
+
+\subsection{Reservoir Architecture}
+
+The reservoir is a two-layer AdEx spiking neural network (MegaSNN):
+Layer 1 consists of 512 AdEx neurons ($a = 0$, $b = 0$, $\tau_w = 5$\,ms,
+$g_L = 5$\,S/m$^2$) with a sparse input projection (18\% connectivity,
+weight scale 2500). Layer 2 consists of 256 AdEx neurons ($a = 2$,
+$b = 10$, $\tau_w = 30$\,ms, $g_L = 2$\,S/m$^2$). Per-neuron BCM
+homeostasis operates on Layer 2 with $\tau_\theta = 500$\,ms. No
+recurrent weights are trained; $W = 0$ throughout (Receiver Model
+\citep{kumar2026ddin}).
+
+Each root is presented for 20 timesteps followed by 20 timesteps of
+silence. Reservoir states are recorded as Layer 2 membrane potentials
+$V_i$ at stimulus offset, $\ell_2$-normalized prior to clustering.
+
+\textbf{Clustering and ARI.} K-Means ($k = 5$, 100 restarts,
+$\ell_2$-normalized 256D state space) is applied to the recorded states.
+ARI is computed between cluster assignments and gloss-based labels using
+\texttt{sklearn.metrics.adjusted\_rand\_score}. $k = 5$ is fixed
+\textit{a priori} and not tuned against ARI.
+
+\subsection{Three-Condition Ablation}
+
+\begin{description}[noitemsep]
+  \item[Condition A (Acoustic-only).] Reservoir input:
+    $[\mathbf{a}_r \,\|\, \mathbf{0.2}_{5}]$. Acoustic features with
+    uniform prior encoding maximum semantic uncertainty.
+  \item[Condition B (Prior-only).] Reservoir input:
+    $[\mathbf{0}_{23} \,\|\, \boldsymbol{\alpha}_r]$. Zero acoustic
+    channel; gloss-based prior vector only.
+  \item[Condition C (Full fusion).] Reservoir input:
+    $[\mathbf{a}_r \,\|\, \boldsymbol{\alpha}_r]$. Both channels active.
+\end{description}
+
+\subsection{Speed-1 Experiment}
+
+To test whether the initial consonant carries detectable semantic signal
+under corrected labels, we run Condition A with truncated input: roots
+are presented as single-phoneme sequences (initial consonant only, then
+silence). ARI is measured against gloss-based labels.
+
+%% ═══════════════════════════════════════════════════════════════════
+\section{Results}
+
+\subsection{Three-Condition Ablation}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{llcl}
+\toprule
+Condition & Input & ARI & Interpretation \\
+\midrule
+MLP baseline & 5D prior only & 1.000 & Perfect separability of gloss labels \\
+B: Prior-only & $[\mathbf{0}_{23} \| \boldsymbol{\alpha}]$ & 0.702 &
+  Reservoir degrades prior signal \\
+C: Full fusion & $[\mathbf{a} \| \boldsymbol{\alpha}]$ & 0.689 &
+  Acoustic channel adds noise ($\Delta = -0.013$) \\
+A: Acoustic-only & $[\mathbf{a} \| \mathbf{0.2}]$ & 0.013 &
+  Chance level \\
+\bottomrule
+\end{tabular}
+\caption{Three-condition ablation results under corrected gloss-based
+  labeling ($N = 1{,}722$ matched roots, $k = 5$, 100 K-Means restarts).
+  Mean firing rate: 2.8 spikes/root (stable, no ESL observed).}
+\label{tab:ablation}
+\end{table}
+
+The acoustic-only condition achieves ARI $= 0.013$, indistinguishable
+from chance ($p > 0.05$ under permutation test, $n = 1000$ permutations).
+This result is stable across two acoustic encoding schemes: the original
+consonant-class-level formants and the refined phoneme-specific formants
+with within-class variation. Adding within-class variation increased
+acoustic-only ARI from 0.010 to 0.013, a difference not significant and
+insufficient to support the phonosemantic hypothesis.
+
+The negative fusion delta ($\Delta = -0.013$) indicates the acoustic
+features disrupt rather than augment the gloss-based semantic organization.
+The reservoir projects the 28D input into a 256D spike-count manifold;
+under random sparse projection, the 23D acoustic component adds
+high-dimensional noise that reduces the separability of the 5D prior
+signal.
+
+The MLP baseline (ARI $= 1.0$) confirms the gloss-based labels are
+perfectly linearly separable, ruling out label noise as an explanation
+for the acoustic channel's failure.
+
+\subsection{Speed-1 Experiment}
+
+Under corrected gloss-based labels, ARI at the initial consonant is
+$0.016$ (chance level). This does not replicate the Speed-1 finding
+reported in Paper 2 (ARI $= 0.204$ at first phoneme). The earlier
+result was an artifact of the consonant-based labeling regime: because
+labels were assigned from the initial consonant and acoustic features
+were derived from the same consonant, single-phoneme presentation was
+sufficient to recover the label with high fidelity.
+
+Under honest labels, no detectable semantic signal is present in the
+initial consonant alone, nor in any longer integration window tested
+(2, 3, 5, and 10 phonemes all yielded ARI $< 0.02$).
+
+\subsection{Reservoir Behavior}
+
+The BCM homeostasis architecture successfully maintained stable
+asynchronous firing at 2.8 spikes/root throughout all experiments.
+No epileptiform synchrony was observed. This confirms the engineering
+contribution of the ESL resolution \citep{kumar2026esl} independent
+of the semantic clustering failure: the reservoir is biophysically
+stable; it simply does not carry the semantic signal of interest.
+
+\subsection{Label Coverage and Quality}
+
+Of 2,259 corpus roots, 1,722 (76.2\%) received a matched gloss-based
+label. The 22.8\% unmatched roots received the uniform fallback prior
+and were excluded from ARI evaluation. Manual inspection of 50 randomly
+sampled matched roots confirmed correct axis assignment in 44 cases
+(88\% precision). The six errors were cases of polysemous roots whose
+primary gloss matched multiple axes; in all cases the dominant axis was
+correctly assigned.
+
+%% ═══════════════════════════════════════════════════════════════════
+\section{Phase 13: Architectural Validation and Taxonomy Diagnosis}
+\label{sec:phase13}
+
+The three-condition ablation in Section~3 established that the reservoir
+fails to recover the Monier-Williams semantic taxonomy from acoustic features.
+This left open a critical ambiguity: is the failure located in the
+\emph{architecture} (the reservoir cannot process acoustic sequences) or
+in the \emph{task} (the semantic taxonomy is not recoverable from acoustic
+features regardless of architecture)? Phase~13 was designed to resolve
+this ambiguity using two targeted experiments.
+
+\subsection{Experiment 56: Locus Taxonomy Baseline}
+
+\textbf{Design.} We replaced the Monier-Williams semantic taxonomy with
+the Pāṇinian articulatory locus taxonomy: the five place-of-articulation
+classes that Sanskrit grammar assigns to every consonant (kaṇṭhya/velar,
+tālavya/palatal, mūrdhanya/retroflex, dantya/dental, oṣṭhya/labial). This
+taxonomy is defined by the initial consonant of each root and is therefore
+directly encoded in the F2 locus equations of the 23D acoustic feature
+vector. If the reservoir functions correctly, it should recover this
+taxonomy above chance because the relevant signal is present in the input
+by construction.
+
+Labels were assigned deterministically from the SLP1 transliteration of
+each root's initial consonant using an explicit consonant-to-class mapping.
+\textbf{Note}: unlike Phase 12's label leakage bug, this labeling is openly
+derived from the initial consonant and is stated as such. The locus
+experiment does not test semantic recovery; it tests whether the reservoir
+can pass consonant-class information that is present in the input features.
+
+\textbf{Mandatory pre-experiment checks} (per Phase~13 protocol):
+label function unit tests passed (3 test cases); corpus unique root count
+reported prior to any augmentation; permutation test pre-committed to
+$n = 1{,}000$; success threshold pre-registered at ARI $> 0.05$,
+$p < 0.05$.
+
+\textbf{Results.}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcc}
+\toprule
+Condition & ARI & $p$ (permutation, $n=1000$) \\
+\midrule
+Acoustic-only (locus labels) & 0.0494 & $< 0.001$ \\
+MLP on 23D acoustic (5-fold CV) & 0.312 $\pm$ 0.021 & $< 0.001$ \\
+\bottomrule
+\end{tabular}
+\caption{Experiment~56 results. The reservoir achieves ARI $= 0.0494$
+  ($p < 0.001$) on the locus taxonomy, confirming statistically significant
+  acoustic signal processing. The MLP ceiling of 0.312 establishes that
+  locus information is present in the features; the reservoir recovers
+  approximately 16\% of the available signal.}
+\label{tab:exp56}
+\end{table}
+
+\textbf{Interpretation.} The acoustic-only ARI of 0.0494 is marginally
+below the pre-registered threshold of 0.05 but is highly statistically
+significant ($p < 0.001$). Under the Phase~13 decision tree, this
+corresponds to Branch~2 (weak but significant signal): the reservoir is
+architecturally functional and not the source of the Phase~12 failure.
+The MLP ceiling of $0.312$ confirms that substantial locus information
+exists in the 23D acoustic features; the reservoir recovers approximately
+16\% of this available signal, indicating a representational bottleneck
+in the spiking dynamics but not an architectural failure.
+
+The reservoir is not broken. It processes acoustic information above
+chance. This rules out the possibility that the Phase~12 negative result
+reflects a defective architecture.
+
+\subsection{Experiment 57: Semantic-Locus Correlation}
+
+\textbf{Design.} If the reservoir can recover locus information (Exp~56)
+but not semantic information (Phase~12), the failure must be located in
+the relationship between the semantic taxonomy and locus structure. We
+tested this directly by measuring the Adjusted Rand Index between the
+Monier-Williams semantic axis labels and the Pāṇinian locus labels across
+the full matched corpus ($N = 1{,}722$ roots).
+
+\textbf{Results.} ARI between semantic taxonomy and locus taxonomy:
+$0.0095$ ($p = 0.001$, permutation test $n = 1{,}000$).
+
+\textbf{Interpretation.} The two taxonomies are nearly orthogonal.
+A semantic axis label is almost entirely uninformative about locus class,
+and vice versa. This measurement is the precise mechanistic diagnosis
+of the Phase~12 negative result: the semantic axes (MOT, SEP, CNT, EXP,
+TRN) do not align with the articulatory locus classes that acoustic
+formants encode. The reservoir cannot recover what the input does not
+contain.
+
+\subsection{Mechanistic Characterization}
+
+Together, Experiments~56 and~57 localize the failure precisely:
+
+\begin{enumerate}[noitemsep]
+  \item The reservoir recovers locus information from acoustic features
+    (Exp~56: ARI $= 0.0494$, $p < 0.001$).
+  \item The semantic taxonomy does not correlate with locus structure
+    (Exp~57: ARI $= 0.0095$, $p = 0.001$).
+  \item Therefore, the semantic taxonomy is not recoverable from
+    acoustic features through the locus channel --- the only channel
+    the features encode at first order.
+\end{enumerate}
+
+This is a stronger result than the Phase~12 negative finding alone. It
+establishes that the failure is \emph{task-specific}: the acoustic feature
+set is insufficient for the Monier-Williams taxonomy not because the
+reservoir fails to process acoustic information, but because the semantic
+axes and the acoustic structure are nearly independent at first order.
+
+%% ═══════════════════════════════════════════════════════════════════
+\section{Discussion}
+
+\subsection{Why First-Order Formants Are Insufficient}
+
+The Phase~13 diagnosis (Exp~57: semantic-locus ARI $= 0.0095$) provides
+a quantitative account of why the Phase~12 negative result was obtained.
+The five semantic axes --- Motion, Separation, Containment, Experiential,
+and Transfer --- derived from Monier-Williams glosses do not align with
+the five Pāṇinian place-of-articulation classes that acoustic formants
+encode. Motion roots begin with velars (gam, go), palatals (car, move),
+and dentals (dhāv, run) in roughly equal proportion; Containment roots
+include labials and velars; Separation roots span dental, retroflex, and
+fricative onsets. The semantic-locus ARI of $0.0095$ quantifies this
+near-orthogonality directly.
+
+No acoustic feature combination based on first-order formants can
+reliably separate these overlapping distributions, because the semantic
+axes were not constructed with reference to articulatory structure. The
+phonosemantic hypothesis, as operationalized in the DDIN program, required
+a consonant-to-axis correspondence that does not exist in this corpus at
+this granularity. This is now an empirically measured fact rather than
+an inference.
+
+\subsection{Relationship to Earlier Results}
+
+Papers 1 and 2 of the DDIN program reported above-chance ARI on a
+150-root benchmark. Those experiments used consonant-class-derived labels.
+Under that regime, both baseline and experimental conditions measured
+consonant class separation rather than semantic recovery. The +61\%
+improvement reported in Paper 2 (static ARI $= 0.037$ vs.\ sequential
+ARI $= 0.059$) used the same circular labeling for both conditions; the
+relative improvement may reflect a genuine advantage of sequential
+encoding for consonant class discrimination, but cannot be interpreted
+as evidence for phonosemantic recovery.
+
+Paper 4's ARI $= 0.9758$ was a near-tautological result: labels were
+initial consonants, acoustic features were initial consonant formants,
+and the reservoir at $N = 2{,}000$ with a 1024D bottleneck produced
+near-perfect consonant-class separation. That record has been retracted
+from Zenodo.
+
+\subsection{What Remains Valid}
+
+Four contributions from the DDIN program are independent of the labeling
+regime and remain valid.
+
+\textbf{The ESL characterization.} The formal proof and empirical
+demonstration that LIF-based SNNs with continuous Poisson input collapse
+into $\sim$500\,Hz synchronous firing when $\tau_m$ exceeds the critical
+threshold (Theorem 1 of \citet{kumar2026esl}) is a mathematical result
+about LIF dynamics, not about phonosemantics.
+
+\textbf{BCM homeostasis as ESL resolution.} The AdEx reservoir with
+per-neuron BCM thresholds maintains stable asynchronous firing under
+language-scale input (2.8 spikes/root, no epileptiform activity across
+2,000-root runs).
+
+\textbf{Locus recovery (Phase 13).} The reservoir recovers articulatory
+locus information from acoustic features at ARI $= 0.0494$
+($p < 0.001$, Exp~56). This partially rehabilitates the sequential ODE
+improvement in Paper~2: the +61\% improvement over static embeddings
+reflects a genuine sequential encoding advantage for consonant-class
+discrimination, even if it cannot be interpreted as semantic recovery.
+
+\textbf{The phonosemantic manifold $\mathcal{M}$.} The theoretical
+framework defining phoneme descriptors as four-dimensional articulatory
+coordinates and the harmonic coherence metric $H$
+\citep{kumar2026phonosemantic} are not invalidated by the failure of
+a specific empirical operationalization.
+
+\subsection{What Would Be Required for a Positive Result}
+
+The negative result constrains but does not close the phonosemantic
+hypothesis. Three modifications could make the hypothesis testable at
+above-chance levels:
+
+\textbf{A consonant-aligned taxonomy.} A semantic taxonomy in which axis
+membership correlates with consonant place-of-articulation would make
+the acoustic channel genuinely predictive. The Vedic semantic tradition
+offers alternative root classifications (e.g., by \textit{kāraka} or
+thematic role) that may align more closely with articulatory structure
+than the Monier-Williams gloss-derived axes used here.
+
+\textbf{Richer acoustic representations.} Locus equations and
+steady-state formants capture place-of-articulation differences between
+consonant classes. They do not capture voice onset time, spectral
+envelope, prosodic weight, or the acoustic correlates of aspiration and
+retroflexion beyond F2. A richer feature set might recover the finer
+distinctions required for the semantic taxonomy used here.
+
+\textbf{A different language substrate.} The phonosemantic hypothesis
+predicts stronger signal in Sanskrit than in English. A cross-linguistic
+experiment measuring acoustic-only ARI across Sanskrit, Hindi, and
+English under the same taxonomy would directly test this prediction.
+If ARI$_\text{Sanskrit} >$ ARI$_\text{Hindi} >$ ARI$_\text{English}$
+even at chance-adjacent levels, the ordering itself is informative.
+
+%% ═══════════════════════════════════════════════════════════════════
+\section{Conclusion}
+
+We have presented a systematic negative result with mechanistic
+characterization. First-order acoustic formant features, processed through
+an AdEx spiking reservoir with BCM homeostasis, do not recover the
+Monier-Williams semantic axis structure in the Sanskrit
+\textit{Dhātupāṭha} above chance level (ARI $= 0.013$, Phase~12).
+Phase~13 locates the failure precisely: the reservoir is architecturally
+functional (Exp~56: locus taxonomy ARI $= 0.0494$, $p < 0.001$), but
+the target semantic taxonomy is nearly orthogonal to the articulatory
+locus structure that acoustic features encode (Exp~57: semantic-locus
+ARI $= 0.0095$). The reservoir cannot recover what the input does not
+contain.
+
+Earlier positive results in the DDIN program were identified as artifacts
+of a label assignment function that derived semantic axes from the same
+initial consonant used for acoustic encoding. After correction, no
+phonosemantic signal is detectable at the level of first-order formants
+for the five-axis Monier-Williams taxonomy. The Speed-1 result
+(ARI $= 0.204$ at first phoneme) does not replicate under corrected
+labels (ARI $= 0.016$).
+
+Three contributions from the program are unaffected: the formal
+characterization of the Epileptiform Synchrony Limit
+\citep{kumar2026esl}; the BCM homeostasis architecture that resolves it;
+and the Phase~13 finding that the reservoir successfully recovers
+articulatory locus information from acoustic features (ARI $= 0.0494$,
+$p < 0.001$), which partially rehabilitates the sequential ODE
+improvement reported in Paper~2 as a genuine result for consonant-class
+discrimination.
+
+This is a complete, mechanistically characterized finding. It specifies:
+(1) where the acoustic signal exists --- locus structure, recoverable at
+ARI $\approx 0.05$ in the reservoir and ARI $\approx 0.31$ in a
+feedforward classifier; (2) where it does not exist --- the
+Monier-Williams semantic taxonomy, which is nearly orthogonal to locus;
+and (3) what would be required for a positive phonosemantic result --- a
+semantic taxonomy whose axes align with articulatory locus structure. We
+offer this as a methodological contribution to the literature on
+phonosemantics, reservoir computing, and neuromorphic language
+processing.
+
+%% ═══════════════════════════════════════════════════════════════════
+\section*{Acknowledgements}
+
+This research was conducted independently. The corpus uses the
+Monier-Williams Sanskrit-English Dictionary (1899), digitized by the
+University of Cologne Sanskrit Lexicon project. No funding was received.
+The author thanks the critical engagement from prior review rounds
+that precipitated the labeling audit reported here.
+
+\section*{Competing Interests}
+The author declares no competing interests.
+
+\section*{Data and Code Availability}
+Experiment code, the corrected labeling function, and the full three-condition
+ablation results are available at
+\href{https://github.com/HmbleCreator}{github.com/HmbleCreator}.
+
+%% ═══════════════════════════════════════════════════════════════════
+\begin{thebibliography}{99}
+
+\bibitem{kumar2026phonosemantic}
+A.~Kumar.
+\newblock Phonosemantic grounding: {S}anskrit as a formalized case of
+  motivated sign structure for interpretable {AI}.
+\newblock \textit{Zenodo Preprint}, 2026.
+\newblock \doi{10.5281/zenodo.19564026}
+
+\bibitem{kumar2026ddin}
+A.~Kumar.
+\newblock Sequential phonosemantic encoding in {ODE} reservoirs: Breaking
+  static baselines and measuring capacity ceilings.
+\newblock \textit{Zenodo Preprint}, 2026.
+\newblock \doi{10.5281/zenodo.19615067}
+
+\bibitem{kumar2026esl}
+A.~Kumar.
+\newblock The epileptiform synchrony limit: {E/I} equilibrium as a physical
+  prerequisite for intelligence in spiking neural networks.
+\newblock \textit{Zenodo Preprint}, 2026.
+\newblock \doi{10.5281/zenodo.19602055}
+
+\bibitem{hinton1994}
+L.~Hinton, J.~Nichols, and J.~Ohala, editors.
+\newblock \textit{Sound Symbolism}.
+\newblock Cambridge University Press, 1994.
+
+\bibitem{magnus2001}
+M.~Magnus.
+\newblock What's in a word? {S}tudies in phonosemantics.
+\newblock PhD thesis, Norwegian University of Science and Technology, 2001.
+
+\bibitem{blasi2016}
+D.~E. Blasi, S.~Wichmann, H.~Hammarstr{\"o}m, P.~F. Stadler, and
+  M.~Christiansen.
+\newblock Sound-meaning association biases evidenced across thousands of
+  languages.
+\newblock \textit{Proceedings of the National Academy of Sciences},
+  113(39):10818--10823, 2016.
+
+\bibitem{saussure1916}
+F.~de~Saussure.
+\newblock \textit{Cours de linguistique g{\'e}n{\'e}rale}.
+\newblock Payot, 1916.
+
+\bibitem{cardona1997}
+G.~Cardona.
+\newblock \textit{P{\={a}}{\d{n}}ini: His Work and Its Traditions}.
+\newblock Motilal Banarsidass, 1997.
+
+\bibitem{monierWilliams1899}
+M.~Monier-Williams.
+\newblock \textit{A Sanskrit-English Dictionary}.
+\newblock Oxford University Press, 1899.
+
+\bibitem{sussman1991}
+H.~M. Sussman, H.~A. McCaffrey, and S.~A. Matthews.
+\newblock An investigation of locus equations as a source of relational
+  invariance for stop place categorization.
+\newblock \textit{Journal of the Acoustical Society of America},
+  90(3):1309--1325, 1991.
+
+\bibitem{goyal2015}
+P.~Goyal, A.~Kumar, and A.~Kulkarni.
+\newblock A {P}{\={a}}{\d{n}}inian approach to natural language processing.
+\newblock In \textit{Proceedings of the Workshop on Computational Linguistics
+  for South Asian Languages}, 2015.
+
+\bibitem{brette2005}
+R.~Brette and W.~Gerstner.
+\newblock Adaptive exponential integrate-and-fire model as an effective
+  description of neuronal activity.
+\newblock \textit{Journal of Neurophysiology}, 94(5):3637--3642, 2005.
+
+\bibitem{bienenstock1982}
+E.~L. Bienenstock, L.~N. Cooper, and P.~W. Munro.
+\newblock Theory for the development of neuron selectivity: orientation
+  specificity and binocular interaction in visual cortex.
+\newblock \textit{Journal of Neuroscience}, 2(1):32--48, 1982.
+
+\bibitem{jaeger2001}
+H.~Jaeger.
+\newblock The ``echo state'' approach to analysing and training recurrent
+  neural networks.
+\newblock \textit{GMD Technical Report}, 148, 2001.
+
+\bibitem{maass2002}
+W.~Maass, T.~Natschl{\"a}ger, and H.~Markram.
+\newblock Real-time computing without stable states: A new framework for
+  neural computation based on perturbations.
+\newblock \textit{Neural Computation}, 14(11):2531--2560, 2002.
+
+\bibitem{bellman1961}
+R.~Bellman.
+\newblock \textit{Adaptive Control Processes: A Guided Tour}.
+\newblock Princeton University Press, 1961.
+
+\bibitem{dingemanse2015}
+M.~Dingemanse, F.~Blasi, G.~Lupyan, M.~H. Christiansen, and P.~Monaghan.
+\newblock Arbitrariness, iconicity, and systematicity in language.
+\newblock \textit{Trends in Cognitive Sciences}, 19(10):603--615, 2015.
+
+\end{thebibliography}
+
+\end{document}

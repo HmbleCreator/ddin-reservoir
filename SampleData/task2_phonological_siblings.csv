@@ -1,0 +1,851 @@
+root_a,root_b,locus,prompt,ground_truth_same_axis,axis_a,axis_b
+kR,kram,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **kram**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kR,krand,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **krand**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kR,kRp,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **kRp**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kR,kruS,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **kruS**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kR,klp,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **klp**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kR,kSip,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **kSip**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,EXP,MOT
+kR,kath,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **kath**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kR,kuj,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **kuj**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kR,kan,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **kan**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kR,kAz,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **kAz**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kR,kIrt,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **kIrt**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kR,kup,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **kup**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kR,kSar,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **kSar**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,EXP,MOT
+kR,gai,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **gai**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kR,gam,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **gam**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,EXP,MOT
+kR,garj,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **garj**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kR,gRh,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **gRh**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,EXP,CNT
+kR,guh,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **guh**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,EXP,CNT
+kR,han,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **han**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kR,hR,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **hR**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kR,hu,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **hu**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kR,hve,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **hve**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kR,kI,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **kI**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kR,kep,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **kep**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,EXP,MOT
+kR,gup,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **gup**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,EXP,CNT
+kR,kzip,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **kzip**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,EXP,MOT
+kR,krand,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **krand**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kR,hims,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **hims**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,EXP,SEP
+kR,kLp,THROAT,"Root A: **kR** (meaning: to do, make, perform, accomplish, cause, produce...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **kLp**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kram,krand,THROAT,"Root A: **kram** (meaning: to step, walk, advance; to rule, govern...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **krand**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kram,kRp,THROAT,"Root A: **kram** (meaning: to step, walk, advance; to rule, govern...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **kRp**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kram,kruS,THROAT,"Root A: **kram** (meaning: to step, walk, advance; to rule, govern...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **kruS**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kram,klp,THROAT,"Root A: **kram** (meaning: to step, walk, advance; to rule, govern...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **klp**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kram,kSip,THROAT,"Root A: **kram** (meaning: to step, walk, advance; to rule, govern...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **kSip**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,EXP,MOT
+kram,kath,THROAT,"Root A: **kram** (meaning: to step, walk, advance; to rule, govern...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **kath**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kram,kuj,THROAT,"Root A: **kram** (meaning: to step, walk, advance; to rule, govern...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **kuj**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kram,kan,THROAT,"Root A: **kram** (meaning: to step, walk, advance; to rule, govern...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **kan**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kram,kAz,THROAT,"Root A: **kram** (meaning: to step, walk, advance; to rule, govern...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **kAz**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kram,kIrt,THROAT,"Root A: **kram** (meaning: to step, walk, advance; to rule, govern...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **kIrt**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kram,kup,THROAT,"Root A: **kram** (meaning: to step, walk, advance; to rule, govern...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **kup**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kram,kSar,THROAT,"Root A: **kram** (meaning: to step, walk, advance; to rule, govern...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **kSar**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,EXP,MOT
+kram,gai,THROAT,"Root A: **kram** (meaning: to step, walk, advance; to rule, govern...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **gai**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kram,gam,THROAT,"Root A: **kram** (meaning: to step, walk, advance; to rule, govern...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **gam**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,EXP,MOT
+kram,garj,THROAT,"Root A: **kram** (meaning: to step, walk, advance; to rule, govern...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **garj**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kram,gRh,THROAT,"Root A: **kram** (meaning: to step, walk, advance; to rule, govern...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **gRh**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,EXP,CNT
+kram,guh,THROAT,"Root A: **kram** (meaning: to step, walk, advance; to rule, govern...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **guh**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,EXP,CNT
+kram,han,THROAT,"Root A: **kram** (meaning: to step, walk, advance; to rule, govern...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **han**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kram,hR,THROAT,"Root A: **kram** (meaning: to step, walk, advance; to rule, govern...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **hR**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kram,hu,THROAT,"Root A: **kram** (meaning: to step, walk, advance; to rule, govern...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **hu**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP
+kram,hve,THROAT,"Root A: **kram** (meaning: to step, walk, advance; to rule, govern...)
+Both Root A and Root B begin with a **throat** consonant (same articulation locus).
+
+Root B: **hve**
+
+The Phonosemantic framework predicts that roots sharing an articulation locus
+tend to share phenomenological axis (semantic primitive category).
+
+Question: Does Root B's meaning likely fall in the SAME phenomenological axis
+as Root A's meaning?
+
+Respond with JSON only:
+{
+  ""same_axis"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,EXP,EXP

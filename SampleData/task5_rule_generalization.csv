@@ -1,0 +1,461 @@
+root,locus,actual_axis,in_example_locus_group,prompt,mw_gloss
+luth,CEREBRAL,MOT,True,"You are shown examples of the Phonosemantic pattern:
+
+  - Root 'ruh' (CEREBRAL): to rise, ascend, mount, grow → Motion/Extension
+  - Root 'ri' (CEREBRAL): to flow, run; to release; to melt → Motion/Extension
+  - Root 'lag' (CEREBRAL): to adhere, attach, cling; to follow → Motion/Extension
+
+Pattern observed: roots produced at the CEREBRAL articulation locus
+(retroflex consonants, ra, la — requiring high abdominal breath force)
+tend to encode Motion/Extension meanings.
+
+New root to classify: **luth** (from the CEREBRAL articulation group)
+
+Based on the pattern shown, predict its phenomenological axis:
+- EXP: Expansion/Causation | TRN: Transformation | MOT: Motion/Extension
+- SEP: Separation/Cutting   | CNT: Containment/Boundary
+
+Respond with JSON only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""is_applying_shown_rule"": <true|false>,
+  ""reasoning"": ""<one sentence>""
+}","to roll, toss; to be disturbed"
+lI,CEREBRAL,MOT,True,"You are shown examples of the Phonosemantic pattern:
+
+  - Root 'ruh' (CEREBRAL): to rise, ascend, mount, grow → Motion/Extension
+  - Root 'ri' (CEREBRAL): to flow, run; to release; to melt → Motion/Extension
+  - Root 'lag' (CEREBRAL): to adhere, attach, cling; to follow → Motion/Extension
+
+Pattern observed: roots produced at the CEREBRAL articulation locus
+(retroflex consonants, ra, la — requiring high abdominal breath force)
+tend to encode Motion/Extension meanings.
+
+New root to classify: **lI** (from the CEREBRAL articulation group)
+
+Based on the pattern shown, predict its phenomenological axis:
+- EXP: Expansion/Causation | TRN: Transformation | MOT: Motion/Extension
+- SEP: Separation/Cutting   | CNT: Containment/Boundary
+
+Respond with JSON only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""is_applying_shown_rule"": <true|false>,
+  ""reasoning"": ""<one sentence>""
+}","to cling, adhere; to melt; to dissolve"
+ruc,CEREBRAL,MOT,True,"You are shown examples of the Phonosemantic pattern:
+
+  - Root 'ruh' (CEREBRAL): to rise, ascend, mount, grow → Motion/Extension
+  - Root 'ri' (CEREBRAL): to flow, run; to release; to melt → Motion/Extension
+  - Root 'lag' (CEREBRAL): to adhere, attach, cling; to follow → Motion/Extension
+
+Pattern observed: roots produced at the CEREBRAL articulation locus
+(retroflex consonants, ra, la — requiring high abdominal breath force)
+tend to encode Motion/Extension meanings.
+
+New root to classify: **ruc** (from the CEREBRAL articulation group)
+
+Based on the pattern shown, predict its phenomenological axis:
+- EXP: Expansion/Causation | TRN: Transformation | MOT: Motion/Extension
+- SEP: Separation/Cutting   | CNT: Containment/Boundary
+
+Respond with JSON only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""is_applying_shown_rule"": <true|false>,
+  ""reasoning"": ""<one sentence>""
+}",to shine; to be bright; to please
+lih,CEREBRAL,MOT,True,"You are shown examples of the Phonosemantic pattern:
+
+  - Root 'ruh' (CEREBRAL): to rise, ascend, mount, grow → Motion/Extension
+  - Root 'ri' (CEREBRAL): to flow, run; to release; to melt → Motion/Extension
+  - Root 'lag' (CEREBRAL): to adhere, attach, cling; to follow → Motion/Extension
+
+Pattern observed: roots produced at the CEREBRAL articulation locus
+(retroflex consonants, ra, la — requiring high abdominal breath force)
+tend to encode Motion/Extension meanings.
+
+New root to classify: **lih** (from the CEREBRAL articulation group)
+
+Based on the pattern shown, predict its phenomenological axis:
+- EXP: Expansion/Causation | TRN: Transformation | MOT: Motion/Extension
+- SEP: Separation/Cutting   | CNT: Containment/Boundary
+
+Respond with JSON only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""is_applying_shown_rule"": <true|false>,
+  ""reasoning"": ""<one sentence>""
+}","to lick, taste; to kiss"
+rAj,CEREBRAL,MOT,True,"You are shown examples of the Phonosemantic pattern:
+
+  - Root 'ruh' (CEREBRAL): to rise, ascend, mount, grow → Motion/Extension
+  - Root 'ri' (CEREBRAL): to flow, run; to release; to melt → Motion/Extension
+  - Root 'lag' (CEREBRAL): to adhere, attach, cling; to follow → Motion/Extension
+
+Pattern observed: roots produced at the CEREBRAL articulation locus
+(retroflex consonants, ra, la — requiring high abdominal breath force)
+tend to encode Motion/Extension meanings.
+
+New root to classify: **rAj** (from the CEREBRAL articulation group)
+
+Based on the pattern shown, predict its phenomenological axis:
+- EXP: Expansion/Causation | TRN: Transformation | MOT: Motion/Extension
+- SEP: Separation/Cutting   | CNT: Containment/Boundary
+
+Respond with JSON only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""is_applying_shown_rule"": <true|false>,
+  ""reasoning"": ""<one sentence>""
+}","to shine, gleam; to be king, rule"
+ram,CEREBRAL,MOT,True,"You are shown examples of the Phonosemantic pattern:
+
+  - Root 'ruh' (CEREBRAL): to rise, ascend, mount, grow → Motion/Extension
+  - Root 'ri' (CEREBRAL): to flow, run; to release; to melt → Motion/Extension
+  - Root 'lag' (CEREBRAL): to adhere, attach, cling; to follow → Motion/Extension
+
+Pattern observed: roots produced at the CEREBRAL articulation locus
+(retroflex consonants, ra, la — requiring high abdominal breath force)
+tend to encode Motion/Extension meanings.
+
+New root to classify: **ram** (from the CEREBRAL articulation group)
+
+Based on the pattern shown, predict its phenomenological axis:
+- EXP: Expansion/Causation | TRN: Transformation | MOT: Motion/Extension
+- SEP: Separation/Cutting   | CNT: Containment/Boundary
+
+Respond with JSON only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""is_applying_shown_rule"": <true|false>,
+  ""reasoning"": ""<one sentence>""
+}","to stop, be still; to be pleased; to play"
+rud,CEREBRAL,EXP,True,"You are shown examples of the Phonosemantic pattern:
+
+  - Root 'ruh' (CEREBRAL): to rise, ascend, mount, grow → Motion/Extension
+  - Root 'ri' (CEREBRAL): to flow, run; to release; to melt → Motion/Extension
+  - Root 'lag' (CEREBRAL): to adhere, attach, cling; to follow → Motion/Extension
+
+Pattern observed: roots produced at the CEREBRAL articulation locus
+(retroflex consonants, ra, la — requiring high abdominal breath force)
+tend to encode Motion/Extension meanings.
+
+New root to classify: **rud** (from the CEREBRAL articulation group)
+
+Based on the pattern shown, predict its phenomenological axis:
+- EXP: Expansion/Causation | TRN: Transformation | MOT: Motion/Extension
+- SEP: Separation/Cutting   | CNT: Containment/Boundary
+
+Respond with JSON only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""is_applying_shown_rule"": <true|false>,
+  ""reasoning"": ""<one sentence>""
+}","to weep, cry, wail; to lament"
+ras,CEREBRAL,EXP,True,"You are shown examples of the Phonosemantic pattern:
+
+  - Root 'ruh' (CEREBRAL): to rise, ascend, mount, grow → Motion/Extension
+  - Root 'ri' (CEREBRAL): to flow, run; to release; to melt → Motion/Extension
+  - Root 'lag' (CEREBRAL): to adhere, attach, cling; to follow → Motion/Extension
+
+Pattern observed: roots produced at the CEREBRAL articulation locus
+(retroflex consonants, ra, la — requiring high abdominal breath force)
+tend to encode Motion/Extension meanings.
+
+New root to classify: **ras** (from the CEREBRAL articulation group)
+
+Based on the pattern shown, predict its phenomenological axis:
+- EXP: Expansion/Causation | TRN: Transformation | MOT: Motion/Extension
+- SEP: Separation/Cutting   | CNT: Containment/Boundary
+
+Respond with JSON only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""is_applying_shown_rule"": <true|false>,
+  ""reasoning"": ""<one sentence>""
+}","to taste; to love; to sound, roar"
+ruh,CEREBRAL,MOT,True,"You are shown examples of the Phonosemantic pattern:
+
+  - Root 'ruh' (CEREBRAL): to rise, ascend, mount, grow → Motion/Extension
+  - Root 'ri' (CEREBRAL): to flow, run; to release; to melt → Motion/Extension
+  - Root 'lag' (CEREBRAL): to adhere, attach, cling; to follow → Motion/Extension
+
+Pattern observed: roots produced at the CEREBRAL articulation locus
+(retroflex consonants, ra, la — requiring high abdominal breath force)
+tend to encode Motion/Extension meanings.
+
+New root to classify: **ruh** (from the CEREBRAL articulation group)
+
+Based on the pattern shown, predict its phenomenological axis:
+- EXP: Expansion/Causation | TRN: Transformation | MOT: Motion/Extension
+- SEP: Separation/Cutting   | CNT: Containment/Boundary
+
+Respond with JSON only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""is_applying_shown_rule"": <true|false>,
+  ""reasoning"": ""<one sentence>""
+}","to rise, ascend, grow; to swell"
+ri,CEREBRAL,MOT,True,"You are shown examples of the Phonosemantic pattern:
+
+  - Root 'ruh' (CEREBRAL): to rise, ascend, mount, grow → Motion/Extension
+  - Root 'ri' (CEREBRAL): to flow, run; to release; to melt → Motion/Extension
+  - Root 'lag' (CEREBRAL): to adhere, attach, cling; to follow → Motion/Extension
+
+Pattern observed: roots produced at the CEREBRAL articulation locus
+(retroflex consonants, ra, la — requiring high abdominal breath force)
+tend to encode Motion/Extension meanings.
+
+New root to classify: **ri** (from the CEREBRAL articulation group)
+
+Based on the pattern shown, predict its phenomenological axis:
+- EXP: Expansion/Causation | TRN: Transformation | MOT: Motion/Extension
+- SEP: Separation/Cutting   | CNT: Containment/Boundary
+
+Respond with JSON only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""is_applying_shown_rule"": <true|false>,
+  ""reasoning"": ""<one sentence>""
+}","to flow, run; to release; to melt"
+bandh,LABIAL,CNT,False,"You are shown examples of the Phonosemantic pattern:
+
+  - Root 'ruh' (CEREBRAL): to rise, ascend, mount, grow → Motion/Extension
+  - Root 'ri' (CEREBRAL): to flow, run; to release; to melt → Motion/Extension
+  - Root 'lag' (CEREBRAL): to adhere, attach, cling; to follow → Motion/Extension
+
+Pattern observed: roots produced at the CEREBRAL articulation locus
+(retroflex consonants, ra, la — requiring high abdominal breath force)
+tend to encode Motion/Extension meanings.
+
+New root to classify: **bandh** (from the LABIAL articulation group)
+
+Based on the pattern shown, predict its phenomenological axis:
+- EXP: Expansion/Causation | TRN: Transformation | MOT: Motion/Extension
+- SEP: Separation/Cutting   | CNT: Containment/Boundary
+
+Respond with JSON only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""is_applying_shown_rule"": <true|false>,
+  ""reasoning"": ""<one sentence>""
+}","to bind, tie, fasten; to catch, hold"
+vR,LABIAL,CNT,False,"You are shown examples of the Phonosemantic pattern:
+
+  - Root 'ruh' (CEREBRAL): to rise, ascend, mount, grow → Motion/Extension
+  - Root 'ri' (CEREBRAL): to flow, run; to release; to melt → Motion/Extension
+  - Root 'lag' (CEREBRAL): to adhere, attach, cling; to follow → Motion/Extension
+
+Pattern observed: roots produced at the CEREBRAL articulation locus
+(retroflex consonants, ra, la — requiring high abdominal breath force)
+tend to encode Motion/Extension meanings.
+
+New root to classify: **vR** (from the LABIAL articulation group)
+
+Based on the pattern shown, predict its phenomenological axis:
+- EXP: Expansion/Causation | TRN: Transformation | MOT: Motion/Extension
+- SEP: Separation/Cutting   | CNT: Containment/Boundary
+
+Respond with JSON only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""is_applying_shown_rule"": <true|false>,
+  ""reasoning"": ""<one sentence>""
+}","to cover, conceal; to surround; to choose"
+pA,LABIAL,CNT,False,"You are shown examples of the Phonosemantic pattern:
+
+  - Root 'ruh' (CEREBRAL): to rise, ascend, mount, grow → Motion/Extension
+  - Root 'ri' (CEREBRAL): to flow, run; to release; to melt → Motion/Extension
+  - Root 'lag' (CEREBRAL): to adhere, attach, cling; to follow → Motion/Extension
+
+Pattern observed: roots produced at the CEREBRAL articulation locus
+(retroflex consonants, ra, la — requiring high abdominal breath force)
+tend to encode Motion/Extension meanings.
+
+New root to classify: **pA** (from the LABIAL articulation group)
+
+Based on the pattern shown, predict its phenomenological axis:
+- EXP: Expansion/Causation | TRN: Transformation | MOT: Motion/Extension
+- SEP: Separation/Cutting   | CNT: Containment/Boundary
+
+Respond with JSON only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""is_applying_shown_rule"": <true|false>,
+  ""reasoning"": ""<one sentence>""
+}","to drink; to absorb; to protect, preserve"
+pAl,LABIAL,CNT,False,"You are shown examples of the Phonosemantic pattern:
+
+  - Root 'ruh' (CEREBRAL): to rise, ascend, mount, grow → Motion/Extension
+  - Root 'ri' (CEREBRAL): to flow, run; to release; to melt → Motion/Extension
+  - Root 'lag' (CEREBRAL): to adhere, attach, cling; to follow → Motion/Extension
+
+Pattern observed: roots produced at the CEREBRAL articulation locus
+(retroflex consonants, ra, la — requiring high abdominal breath force)
+tend to encode Motion/Extension meanings.
+
+New root to classify: **pAl** (from the LABIAL articulation group)
+
+Based on the pattern shown, predict its phenomenological axis:
+- EXP: Expansion/Causation | TRN: Transformation | MOT: Motion/Extension
+- SEP: Separation/Cutting   | CNT: Containment/Boundary
+
+Respond with JSON only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""is_applying_shown_rule"": <true|false>,
+  ""reasoning"": ""<one sentence>""
+}","to protect, guard; to govern; to maintain"
+bhU,LABIAL,EXP,False,"You are shown examples of the Phonosemantic pattern:
+
+  - Root 'ruh' (CEREBRAL): to rise, ascend, mount, grow → Motion/Extension
+  - Root 'ri' (CEREBRAL): to flow, run; to release; to melt → Motion/Extension
+  - Root 'lag' (CEREBRAL): to adhere, attach, cling; to follow → Motion/Extension
+
+Pattern observed: roots produced at the CEREBRAL articulation locus
+(retroflex consonants, ra, la — requiring high abdominal breath force)
+tend to encode Motion/Extension meanings.
+
+New root to classify: **bhU** (from the LABIAL articulation group)
+
+Based on the pattern shown, predict its phenomenological axis:
+- EXP: Expansion/Causation | TRN: Transformation | MOT: Motion/Extension
+- SEP: Separation/Cutting   | CNT: Containment/Boundary
+
+Respond with JSON only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""is_applying_shown_rule"": <true|false>,
+  ""reasoning"": ""<one sentence>""
+}","to become, be; to arise, spring; to exist"
+bhr,LABIAL,CNT,False,"You are shown examples of the Phonosemantic pattern:
+
+  - Root 'ruh' (CEREBRAL): to rise, ascend, mount, grow → Motion/Extension
+  - Root 'ri' (CEREBRAL): to flow, run; to release; to melt → Motion/Extension
+  - Root 'lag' (CEREBRAL): to adhere, attach, cling; to follow → Motion/Extension
+
+Pattern observed: roots produced at the CEREBRAL articulation locus
+(retroflex consonants, ra, la — requiring high abdominal breath force)
+tend to encode Motion/Extension meanings.
+
+New root to classify: **bhr** (from the LABIAL articulation group)
+
+Based on the pattern shown, predict its phenomenological axis:
+- EXP: Expansion/Causation | TRN: Transformation | MOT: Motion/Extension
+- SEP: Separation/Cutting   | CNT: Containment/Boundary
+
+Respond with JSON only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""is_applying_shown_rule"": <true|false>,
+  ""reasoning"": ""<one sentence>""
+}","to bear, carry; to fill; to swell"
+bhuj,LABIAL,CNT,False,"You are shown examples of the Phonosemantic pattern:
+
+  - Root 'ruh' (CEREBRAL): to rise, ascend, mount, grow → Motion/Extension
+  - Root 'ri' (CEREBRAL): to flow, run; to release; to melt → Motion/Extension
+  - Root 'lag' (CEREBRAL): to adhere, attach, cling; to follow → Motion/Extension
+
+Pattern observed: roots produced at the CEREBRAL articulation locus
+(retroflex consonants, ra, la — requiring high abdominal breath force)
+tend to encode Motion/Extension meanings.
+
+New root to classify: **bhuj** (from the LABIAL articulation group)
+
+Based on the pattern shown, predict its phenomenological axis:
+- EXP: Expansion/Causation | TRN: Transformation | MOT: Motion/Extension
+- SEP: Separation/Cutting   | CNT: Containment/Boundary
+
+Respond with JSON only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""is_applying_shown_rule"": <true|false>,
+  ""reasoning"": ""<one sentence>""
+}","to bend, curve; to turn; to avoid"
+badh,LABIAL,CNT,False,"You are shown examples of the Phonosemantic pattern:
+
+  - Root 'ruh' (CEREBRAL): to rise, ascend, mount, grow → Motion/Extension
+  - Root 'ri' (CEREBRAL): to flow, run; to release; to melt → Motion/Extension
+  - Root 'lag' (CEREBRAL): to adhere, attach, cling; to follow → Motion/Extension
+
+Pattern observed: roots produced at the CEREBRAL articulation locus
+(retroflex consonants, ra, la — requiring high abdominal breath force)
+tend to encode Motion/Extension meanings.
+
+New root to classify: **badh** (from the LABIAL articulation group)
+
+Based on the pattern shown, predict its phenomenological axis:
+- EXP: Expansion/Causation | TRN: Transformation | MOT: Motion/Extension
+- SEP: Separation/Cutting   | CNT: Containment/Boundary
+
+Respond with JSON only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""is_applying_shown_rule"": <true|false>,
+  ""reasoning"": ""<one sentence>""
+}","to bind, tie; to fetter; to secure"
+basj,LABIAL,CNT,False,"You are shown examples of the Phonosemantic pattern:
+
+  - Root 'ruh' (CEREBRAL): to rise, ascend, mount, grow → Motion/Extension
+  - Root 'ri' (CEREBRAL): to flow, run; to release; to melt → Motion/Extension
+  - Root 'lag' (CEREBRAL): to adhere, attach, cling; to follow → Motion/Extension
+
+Pattern observed: roots produced at the CEREBRAL articulation locus
+(retroflex consonants, ra, la — requiring high abdominal breath force)
+tend to encode Motion/Extension meanings.
+
+New root to classify: **basj** (from the LABIAL articulation group)
+
+Based on the pattern shown, predict its phenomenological axis:
+- EXP: Expansion/Causation | TRN: Transformation | MOT: Motion/Extension
+- SEP: Separation/Cutting   | CNT: Containment/Boundary
+
+Respond with JSON only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""is_applying_shown_rule"": <true|false>,
+  ""reasoning"": ""<one sentence>""
+}","to bind, tie; to glue; to join"
+bA,LABIAL,CNT,False,"You are shown examples of the Phonosemantic pattern:
+
+  - Root 'ruh' (CEREBRAL): to rise, ascend, mount, grow → Motion/Extension
+  - Root 'ri' (CEREBRAL): to flow, run; to release; to melt → Motion/Extension
+  - Root 'lag' (CEREBRAL): to adhere, attach, cling; to follow → Motion/Extension
+
+Pattern observed: roots produced at the CEREBRAL articulation locus
+(retroflex consonants, ra, la — requiring high abdominal breath force)
+tend to encode Motion/Extension meanings.
+
+New root to classify: **bA** (from the LABIAL articulation group)
+
+Based on the pattern shown, predict its phenomenological axis:
+- EXP: Expansion/Causation | TRN: Transformation | MOT: Motion/Extension
+- SEP: Separation/Cutting   | CNT: Containment/Boundary
+
+Respond with JSON only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""is_applying_shown_rule"": <true|false>,
+  ""reasoning"": ""<one sentence>""
+}","to live, exist; to wait; to stay"

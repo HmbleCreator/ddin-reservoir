@@ -1,0 +1,3001 @@
+root,locus,prompt,actual_axis,predicted_axis_framework,mw_gloss,is_framework_error
+kR,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **kR**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,EXP,"to do, make, perform, accomplish, cause, produce",False
+kram,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **kram**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,EXP,"to step, walk, advance; to rule, govern",False
+krand,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **krand**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,EXP,"to cry out, wail, sound loudly, neigh",False
+kRp,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **kRp**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,EXP,"to be able, to lament; to be worthy",False
+kruS,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **kruS**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,EXP,"to cry out, shout, call to, invoke",False
+klp,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **klp**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,EXP,"to be fit, to be adequate; to prepare, arrange",False
+kSip,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **kSip**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,EXP,"to throw, cast, send; to strike",True
+kath,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **kath**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,EXP,"to tell, relate, inform, speak of",False
+kuj,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **kuj**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,EXP,"to sound, cry, coo; to make a low noise",False
+kan,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **kan**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,EXP,"to shine, be pleased; to sound",False
+kAz,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **kAz**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,EXP,"to shine, be bright, be visible; to appear",False
+kIrt,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **kIrt**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,EXP,"to mention, relate, say, name, celebrate",False
+kup,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **kup**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,EXP,"to be moved, be agitated; to be angry",False
+kSar,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **kSar**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,EXP,"to flow, glide, move; to melt away",True
+gai,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **gai**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,EXP,"to sing, praise in song, celebrate",False
+gam,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **gam**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,EXP,"to go, move, come; to approach",True
+garj,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **garj**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,EXP,"to roar, thunder, sound loudly",False
+gRh,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **gRh**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",CNT,EXP,"to seize, take, accept, receive",True
+guh,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **guh**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",CNT,EXP,"to hide, conceal, cover over",True
+han,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **han**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,EXP,"to strike, smite, kill, destroy; to cause",False
+hR,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **hR**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,EXP,"to take, carry, bear; to lead, convey",False
+hu,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **hu**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,EXP,"to pour into fire, offer oblation; to sacrifice",False
+hve,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **hve**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,EXP,"to call, summon, challenge; to invoke",False
+kI,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **kI**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,EXP,"to go; to sound; to scatter, sprinkle",False
+kep,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **kep**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,EXP,"to shake, tremble; to cause to tremble",True
+gup,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **gup**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",CNT,EXP,"to protect, guard, preserve; to hide",True
+kzip,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **kzip**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,EXP,"to throw, project, hurl forward",True
+krand,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **krand**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,EXP,"to cry aloud, roar; to grieve",False
+hims,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **hims**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",SEP,EXP,"to injure, hurt, harm, destroy",True
+kLp,THROAT,"A Sanskrit verbal root from Panini's Dhatupatha is: **kLp**
+It belongs to the **throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,EXP,"to be well ordered, to succeed; to be fit",False
+ci,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **ci**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",SEP,TRN,"to observe, perceive, notice; to search",True
+cit,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **cit**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",SEP,TRN,"to perceive, understand, know; to think",True
+cint,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **cint**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",SEP,TRN,"to think, reflect, consider; to imagine",True
+cur,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **cur**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",TRN,TRN,to steal; to consume; to be crooked,False
+cud,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **cud**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",TRN,TRN,"to drive on, urge; to hasten; to sharpen",False
+jan,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **jan**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,TRN,"to be born, to arise; to generate, produce",True
+jap,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **jap**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,TRN,"to mutter, whisper; to repeat in low tones",True
+jalp,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **jalp**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,TRN,"to speak, chatter, babble; to proclaim",True
+ji,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **ji**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,TRN,"to win, conquer, overcome; to excel",True
+jval,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **jval**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,TRN,"to blaze, shine, burn; to be bright",True
+jash,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **jash**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",TRN,TRN,"to devour, eat; to consume",False
+yaj,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **yaj**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,TRN,"to worship, offer, sacrifice; to consecrate",True
+yam,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **yam**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",CNT,TRN,"to hold, sustain, support; to restrain",True
+yu,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **yu**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",SEP,TRN,to mix; to separate; to unite,True
+yuj,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **yuj**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",CNT,TRN,"to join, unite; to yoke; to concentrate",True
+car,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **car**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,TRN,"to move, walk, wander; to practice, perform",True
+chad,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **chad**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",CNT,TRN,"to cover, clothe; to please",True
+chid,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **chid**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",SEP,TRN,"to cut off, divide, remove; to destroy",True
+ji,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **ji**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,TRN,"to conquer, excel; to acquire by conquest",True
+jIv,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **jIv**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,TRN,"to live, be alive; to breathe, survive",True
+jak,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **jak**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,TRN,to go; to carry away,True
+jan,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **jan**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,TRN,"to arise, spring, originate from",True
+cup,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **cup**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,TRN,"to move slowly; to stir, be active",True
+cal,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **cal**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,TRN,"to be moved, to go; to waver, shake",True
+cR,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **cR**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",TRN,TRN,"to be crooked, curved; to hurt, injure",False
+jAgR,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **jAgR**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,TRN,"to be awake, to watch; to be attentive",True
+yA,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **yA**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,TRN,"to go, proceed, move; to travel",True
+yuddh,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **yuddh**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,TRN,"to fight, struggle; to contend with",True
+cay,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **cay**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",CNT,TRN,"to collect, gather, accumulate",True
+cakAs,PALATE,"A Sanskrit verbal root from Panini's Dhatupatha is: **cakAs**
+It belongs to the **hard palate (ca-varga: ca, cha, ja, jha, ya) — inner precision articulation** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,TRN,"to shine, be bright, be manifest",True
+rA,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **rA**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",CNT,MOT,"to give, grant, bestow; to hand over",True
+raj,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **raj**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,MOT,"to be colored, dyed; to reign, rule; to shine",True
+ram,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **ram**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,MOT,"to stop, be still; to be pleased; to play",False
+ras,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **ras**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,MOT,"to taste; to love; to sound, roar",True
+ruh,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **ruh**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,MOT,"to rise, ascend, mount, grow",False
+rudh,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **rudh**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",CNT,MOT,"to obstruct, check, confine; to enclose",True
+rud,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **rud**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,MOT,"to weep, cry, wail; to lament",True
+ri,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **ri**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,MOT,"to flow, run; to release; to melt",False
+ric,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **ric**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,MOT,"to empty, evacuate; to separate",False
+rip,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **rip**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",SEP,MOT,"to smear, anoint; to betray, harm",True
+ruj,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **ruj**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",SEP,MOT,"to break, crush; to cause pain",True
+lA,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **lA**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",SEP,MOT,"to take, grasp; to cut, mow",True
+lag,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **lag**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,MOT,"to adhere, attach, cling to; to follow",False
+lamb,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **lamb**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,MOT,"to hang down, depend; to fall",False
+laz,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **laz**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,MOT,"to perceive, possess; to shine",True
+lup,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **lup**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",SEP,MOT,"to cut, rob, take away; to destroy",True
+luth,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **luth**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,MOT,"to roll, toss; to be disturbed",False
+lI,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **lI**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,MOT,"to cling, adhere; to melt; to dissolve",False
+lok,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **lok**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",SEP,MOT,"to see, behold; to perceive",True
+lup,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **lup**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",SEP,MOT,"to cut off, separate; to plunder",True
+rAj,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **rAj**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,MOT,"to shine, gleam; to be king, rule",True
+rambh,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **rambh**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,MOT,to begin; to sound; to support,True
+lip,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **lip**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",CNT,MOT,"to smear, anoint, besmear; to cover",True
+lubh,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **lubh**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,MOT,to desire eagerly; to be confused,False
+lih,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **lih**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,MOT,"to lick, taste; to kiss",False
+ruc,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **ruc**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,MOT,to shine; to be bright; to please,True
+rI,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **rI**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,MOT,"to flow, stream; to dissolve",False
+rak,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **rak**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",CNT,MOT,"to protect, guard, preserve",True
+randh,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **randh**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",SEP,MOT,to be subdued; to cook; to pierce,True
+rAd,CEREBRAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **rAd**
+It belongs to the **cerebral/retroflex (retroflex cluster + ra, la) — high-force abdominal breath** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,MOT,to accomplish; to make ready; to scrape,True
+tap,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **tap**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,SEP,"to give out heat, be hot; to shine; to consume",True
+tAy,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **tAy**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,SEP,"to extend, spread out; to be spread",True
+tij,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **tij**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",SEP,SEP,to be sharp; to sharpen; to endure pain,False
+tul,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **tul**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",SEP,SEP,"to lift, raise; to weigh; to compare",False
+tud,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **tud**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",SEP,SEP,"to push, strike, goad; to cause pain",False
+tan,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **tan**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,SEP,"to stretch, extend; to continue; to propagate",True
+tRp,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **tRp**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",CNT,SEP,"to be satisfied, pleased; to satisfy",True
+dah,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **dah**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,SEP,"to burn, consume by fire; to torment",True
+dA,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **dA**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",SEP,SEP,"to cut, divide, mow; to bind",False
+diz,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **diz**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",SEP,SEP,"to point out, show, direct; to assign",False
+dIp,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **dIp**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,SEP,"to blaze, shine; to illuminate",True
+drA,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **drA**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,SEP,"to sleep; to run, flee; to be tired",True
+dru,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **dru**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,SEP,"to run, hasten; to flow; to melt",True
+dhA,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **dhA**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",CNT,SEP,"to put, place, hold; to possess; to deliver",True
+dhAv,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **dhAv**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,SEP,"to run, flow; to wash; to cleanse",True
+san,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **san**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,SEP,"to gain, win, acquire; to serve, honor",True
+sah,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **sah**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",CNT,SEP,"to bear, endure; to overcome; to resist",True
+sic,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **sic**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",SEP,SEP,"to sprinkle, pour out; to shed; to wash",False
+sidh,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **sidh**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",SEP,SEP,"to be accomplished, succeed; to drive off",False
+sRp,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **sRp**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,SEP,"to creep, crawl; to glide, move slowly",True
+svap,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **svap**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,SEP,"to sleep, to be inactive",True
+sRj,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **sRj**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,SEP,"to let go, release; to create; to emit",True
+stR,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **stR**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",SEP,SEP,"to spread, strew; to scatter; to cover",False
+skand,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **skand**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,SEP,"to leap, jump; to pour out; to fall",True
+syand,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **syand**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,SEP,"to flow, run; to ooze; to drip",True
+tvar,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **tvar**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,SEP,"to hasten, hurry; to be quick",True
+tyaj,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **tyaj**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",SEP,SEP,"to leave, abandon; to give up; to renounce",False
+trik,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **trik**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",SEP,SEP,"to go; to injure, kill",False
+dus,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **dus**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",SEP,SEP,"to be corrupt, bad; to sin; to injure",False
+daMz,DENTAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **daMz**
+It belongs to the **dental (ta-varga: ta, tha, da, dha, sa) — cutting contact at teeth** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",SEP,SEP,to bite; to sting; to seize with teeth,False
+pA,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **pA**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",CNT,CNT,"to drink; to absorb; to protect, preserve",False
+pac,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **pac**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",TRN,CNT,"to cook, bake; to ripen; to digest",True
+pat,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **pat**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,CNT,"to fly, fall, descend; to go",True
+pad,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **pad**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,CNT,"to go, step; to fall; to approach",True
+pAl,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **pAl**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",CNT,CNT,"to protect, guard; to govern; to maintain",False
+piS,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **piS**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",SEP,CNT,"to crush, pound; to grind; to form",True
+pI,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **pI**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",CNT,CNT,to swell; to protect; to be nourished,False
+pu,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **pu**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",TRN,CNT,to purify; to cleanse; to make clear,True
+pus,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **pus**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,CNT,"to nourish, cherish; to thrive; to flourish",True
+pRR,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **pRR**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",CNT,CNT,"to fill, complete; to satisfy; to protect",False
+bandh,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **bandh**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",CNT,CNT,"to bind, tie, fasten; to catch, hold",False
+bhaj,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **bhaj**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",CNT,CNT,to divide; to share; to worship; to love,False
+bhA,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **bhA**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,CNT,"to shine, be bright; to appear; to illuminate",True
+bhid,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **bhid**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",SEP,CNT,"to split, cleave; to pierce; to break",True
+bhuj,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **bhuj**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",CNT,CNT,to bend; to enjoy; to eat; to use,False
+bhU,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **bhU**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,CNT,"to become, be; to arise, spring; to exist",True
+vac,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **vac**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,CNT,"to speak, say, tell; to call; to recite",True
+vah,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **vah**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,CNT,"to carry, transport; to bear; to convey",True
+vA,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **vA**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,CNT,to blow; to weave; to go,True
+vaz,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **vaz**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",CNT,CNT,"to will, wish, desire; to be pleased",False
+vid,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **vid**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",SEP,CNT,to know; to find; to consider; to experience,True
+viz,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **viz**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,CNT,"to enter, go into; to penetrate; to settle",True
+vR,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **vR**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",CNT,CNT,"to cover, conceal; to surround; to choose",False
+vRt,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **vRt**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",CNT,CNT,"to turn, revolve; to exist; to proceed",False
+vyath,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **vyath**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,CNT,"to shake, tremble; to be disturbed",True
+phan,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **phan**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,CNT,to go; to move rapidly,True
+bhr,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **bhr**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",CNT,CNT,"to bear, carry, maintain; to cherish",False
+bhaS,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **bhaS**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",EXP,CNT,to bark; to speak; to talk,True
+pRc,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **pRc**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",CNT,CNT,"to mix, mingle; to fill; to satisfy",False
+plav,LABIAL,"A Sanskrit verbal root from Panini's Dhatupatha is: **plav**
+It belongs to the **labial (pa-varga: pa, pha, ba, bha, va, ma) — boundary of the body** articulation group.
+
+The Phonosemantic framework (Kumar, 2026) predicts that Sanskrit roots cluster
+into five phenomenological axes based on their articulation locus:
+- EXP: Expansion/Causation (making, producing, sounding, emanating)
+- TRN: Transformation/Change (cooking, ripening, altering, purifying)
+- MOT: Motion/Extension (going, flowing, spreading, crossing)
+- SEP: Separation/Cutting (cutting, dividing, piercing, knowing)
+- CNT: Containment/Boundary (containing, holding, binding, protecting)
+
+Based on the root's phonological structure (articulation locus + manner),
+predict its primary phenomenological axis.
+
+Respond with a JSON object only:
+{
+  ""predicted_axis"": ""<EXP|TRN|MOT|SEP|CNT>"",
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",MOT,CNT,"to float, swim; to bathe; to jump",True

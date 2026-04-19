@@ -1,0 +1,601 @@
+root,locus,presented_gloss,prompt,is_genuine,ground_truth_match
+kR,THROAT,"to do, make, perform, accomplish, cause, produce","Sanskrit root **kR** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to do, make, perform, accomplish, cause, produce""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,True
+kram,THROAT,"to step, walk, advance; to rule, govern","Sanskrit root **kram** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to step, walk, advance; to rule, govern""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,True
+krand,THROAT,"to cry out, wail, sound loudly, neigh","Sanskrit root **krand** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to cry out, wail, sound loudly, neigh""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,True
+kRp,THROAT,"to be able, to lament; to be worthy","Sanskrit root **kRp** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to be able, to lament; to be worthy""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,True
+kruS,THROAT,"to cry out, shout, call to, invoke","Sanskrit root **kruS** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to cry out, shout, call to, invoke""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,True
+klp,THROAT,"to be fit, to be adequate; to prepare, arrange","Sanskrit root **klp** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to be fit, to be adequate; to prepare, arrange""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,True
+kath,THROAT,"to tell, relate, inform, speak of","Sanskrit root **kath** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to tell, relate, inform, speak of""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,True
+kuj,THROAT,"to sound, cry, coo; to make a low noise","Sanskrit root **kuj** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to sound, cry, coo; to make a low noise""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,True
+kan,THROAT,"to shine, be pleased; to sound","Sanskrit root **kan** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to shine, be pleased; to sound""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,True
+kAz,THROAT,"to shine, be bright, be visible; to appear","Sanskrit root **kAz** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to shine, be bright, be visible; to appear""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,True
+kIrt,THROAT,"to mention, relate, say, name, celebrate","Sanskrit root **kIrt** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to mention, relate, say, name, celebrate""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,True
+kup,THROAT,"to be moved, be agitated; to be angry","Sanskrit root **kup** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to be moved, be agitated; to be angry""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,True
+gai,THROAT,"to sing, praise in song, celebrate","Sanskrit root **gai** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to sing, praise in song, celebrate""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,True
+garj,THROAT,"to roar, thunder, sound loudly","Sanskrit root **garj** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to roar, thunder, sound loudly""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,True
+han,THROAT,"to strike, smite, kill, destroy; to cause","Sanskrit root **han** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to strike, smite, kill, destroy; to cause""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,True
+hR,THROAT,"to take, carry, bear; to lead, convey","Sanskrit root **hR** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to take, carry, bear; to lead, convey""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,True
+hu,THROAT,"to pour into fire, offer oblation; to sacrifice","Sanskrit root **hu** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to pour into fire, offer oblation; to sacrifice""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,True
+hve,THROAT,"to call, summon, challenge; to invoke","Sanskrit root **hve** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to call, summon, challenge; to invoke""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,True
+kI,THROAT,"to go; to sound; to scatter, sprinkle","Sanskrit root **kI** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to go; to sound; to scatter, sprinkle""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,True
+krand,THROAT,"to cry aloud, roar; to grieve","Sanskrit root **krand** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to cry aloud, roar; to grieve""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",True,True
+kR,THROAT,"to contain, hold, protect; to bind and preserve","Sanskrit root **kR** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to contain, hold, protect; to bind and preserve""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,False
+kram,THROAT,"to contain, hold, protect; to bind and preserve","Sanskrit root **kram** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to contain, hold, protect; to bind and preserve""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,False
+krand,THROAT,"to contain, hold, protect; to bind and preserve","Sanskrit root **krand** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to contain, hold, protect; to bind and preserve""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,False
+kRp,THROAT,"to contain, hold, protect; to bind and preserve","Sanskrit root **kRp** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to contain, hold, protect; to bind and preserve""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,False
+kruS,THROAT,"to contain, hold, protect; to bind and preserve","Sanskrit root **kruS** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to contain, hold, protect; to bind and preserve""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,False
+klp,THROAT,"to contain, hold, protect; to bind and preserve","Sanskrit root **klp** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to contain, hold, protect; to bind and preserve""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,False
+kSip,THROAT,"to contain, hold, protect; to bind and preserve","Sanskrit root **kSip** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to contain, hold, protect; to bind and preserve""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,False
+kath,THROAT,"to contain, hold, protect; to bind and preserve","Sanskrit root **kath** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to contain, hold, protect; to bind and preserve""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,False
+kuj,THROAT,"to contain, hold, protect; to bind and preserve","Sanskrit root **kuj** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to contain, hold, protect; to bind and preserve""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,False
+kan,THROAT,"to contain, hold, protect; to bind and preserve","Sanskrit root **kan** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to contain, hold, protect; to bind and preserve""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,False
+kAz,THROAT,"to contain, hold, protect; to bind and preserve","Sanskrit root **kAz** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to contain, hold, protect; to bind and preserve""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,False
+kIrt,THROAT,"to contain, hold, protect; to bind and preserve","Sanskrit root **kIrt** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to contain, hold, protect; to bind and preserve""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,False
+kup,THROAT,"to contain, hold, protect; to bind and preserve","Sanskrit root **kup** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to contain, hold, protect; to bind and preserve""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,False
+kSar,THROAT,"to contain, hold, protect; to bind and preserve","Sanskrit root **kSar** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to contain, hold, protect; to bind and preserve""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,False
+gai,THROAT,"to contain, hold, protect; to bind and preserve","Sanskrit root **gai** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to contain, hold, protect; to bind and preserve""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,False
+gam,THROAT,"to contain, hold, protect; to bind and preserve","Sanskrit root **gam** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to contain, hold, protect; to bind and preserve""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,False
+garj,THROAT,"to contain, hold, protect; to bind and preserve","Sanskrit root **garj** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to contain, hold, protect; to bind and preserve""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,False
+gRh,THROAT,"to contain, hold, protect; to bind and preserve","Sanskrit root **gRh** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to contain, hold, protect; to bind and preserve""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,False
+guh,THROAT,"to contain, hold, protect; to bind and preserve","Sanskrit root **guh** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to contain, hold, protect; to bind and preserve""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,False
+han,THROAT,"to contain, hold, protect; to bind and preserve","Sanskrit root **han** from the throat (ka-varga: ka, kha, ga, gha, ha) — pharynx/glottis, the source-to-filter transition group.
+Proposed meaning: ""to contain, hold, protect; to bind and preserve""
+
+In the Phonosemantic framework, the throat articulation locus
+predicts meanings in the Expansion/Causation semantic field.
+
+Does this root's proposed meaning MATCH the predicted semantic field
+for its phonological group?
+
+Respond with JSON only:
+{
+  ""meaning_matches_phonology"": <true|false>,
+  ""confidence"": <integer 0-100>,
+  ""reasoning"": ""<one sentence>""
+}",False,False
