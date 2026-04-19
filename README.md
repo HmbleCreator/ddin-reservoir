@@ -8,12 +8,12 @@
 
 ```
 DDIN-Reservoir/
-├── Papers/              # Peer-reviewed publications (5 papers)
+|              
 ├── Experiments/         # All 57+ experiment scripts
 ├── SampleData/          # Benchmark datasets
-├── Audits/              # Internal review documents
+├── data.txt             # data used
 ├── .gitignore           # This file
-└── ddin_agi_research_log.md  # Complete research timeline
+└──ddin_agi_research_log.md  # Complete research timeline
 ```
 
 ---
