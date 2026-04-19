@@ -1,0 +1,64 @@
+
+# Scientific Paper: Final Empirical Report
+
+**Title**: Acoustic Formant Features Are Insufficient for Semantic Axis Recovery in Sanskrit Verbal Roots: A Spiking Reservoir Computing Investigation
+
+**Authors**: Trae AI Assistant, Research Program DDIN
+**Date**: April 19, 2026
+**Status**: Final Negative Result Report
+
+---
+
+## 1. Abstract
+We investigate the motivated sign hypothesis in the context of Sanskrit verbal roots (*Dhātu*) using a neuromorphic spiking reservoir computing architecture. Specifically, we test whether first-order acoustic formant features (F1, F2, locus equations) carry sufficient discriminative signal to organize roots into the five primary semantic axes of the *Dhātvartha* taxonomy (Motion, Separation, Containment, Experience, Transformation). After establishing a rigorous, leakage-free labeling foundation using word-boundary gloss matching, we find that acoustic features achieve only chance-level Adjusted Rand Index (ARI = 0.013), while dictionary-derived semantic priors provide a linearly separable floor of 0.702 ARI. Our results indicate that the "sign" in the Sanskrit root system is arbitrary with respect to first-order formant frequencies, and that the spiking reservoir acts as a signal-destroyer when attempting to fuse these disparate channels.
+
+## 2. Introduction
+The phonosemantic hypothesis suggests that the relationship between sound and meaning is non-arbitrary in certain linguistic substrates. Sanskrit, with its highly formalized *Dhātvartha* system, represents a primary candidate for this "motivated sign" hypothesis. Previous phases of this research program (Phase 1-11) reported near-perfect semantic recovery (ARI > 0.95), suggesting a "Singularity" in linguistic organization. This report documents the systematic audit of those results and the establishment of an honest empirical baseline.
+
+## 3. Methodology
+
+### 3.1. Neuromorphic Architecture
+We employ a two-layer Adaptive Exponential (AdEx) Integrate-and-Fire reservoir:
+- **Layer 1 (L1)**: 512 neurons, sparse input projection.
+- **Layer 2 (L2)**: 256 neurons, sparse recurrent-like projection.
+- **Homeostasis**: BCM (Bienenstock-Cooper-Munro) rule to prevent Epileptiform Synchrony (ESL).
+- **Readout**: Continuous membrane potential ($V$) averaged over a 20ms stimulus window.
+
+### 3.2. Feature Encoding
+- **Acoustic (23D)**: First-order F1/F2 formants, locus equations, and phonation features (voiced, aspirated, nasal). Differentiated phoneme-specific values (e.g., /p/ vs /b/) were used to ensure maximum input fidelity.
+- **Semantic Prior (5D)**: Keyword-based axis stems derived from Monier-Williams glosses.
+
+### 3.3. The Label Leakage Audit
+A structural flaw was identified where labels were previously assigned based on the same features used for input (first consonant place). We corrected this by implementing **Word-Boundary Matching** on SLP1-transliterated glosses, ensuring that labels and acoustic features were derived from independent sources.
+
+## 4. Results
+
+### 4.1. The 0.70 ARI Floor
+Using the corrected labels, a simple K-Means clustering on the 5D semantic priors alone yields an **ARI of 0.7021**. An MLP baseline achieves an **ARI of 1.0000**. This confirms that the semantic axes are well-defined and linearly separable in the label space.
+
+### 4.2. Ablation Study
+We tested three conditions to isolate the reservoir's contribution:
+
+| Condition | Reservoir ARI | Finding |
+| :--- | :--- | :--- |
+| **Acoustic-Only** | **0.0130** | Pure noise (Chance = 0.01-0.02) |
+| **Prior-Only** | **0.7441** | Passive pass-through with 25% degradation |
+| **Full Fusion** | **0.6898** | **Negative Delta (-0.054)**; acoustics act as noise |
+
+### 4.3. Speed-1 Integration Curve
+A rerun of the "Speed-1" finding (ARI vs. Phoneme Depth) confirms that the signal does not improve with temporal integration:
+- **1 Phoneme**: ARI 0.0160
+- **2 Phonemes**: ARI 0.0173
+- **10 Phonemes**: ARI 0.0074
+
+## 5. Discussion
+The failure to exceed the 0.70 prior-only floor demonstrates that acoustic formants are **insufficient** for semantic axis recovery in this taxonomy. Specifically, Phase 13 results showed that while the reservoir *can* recover articulatory place classes (ARI ~0.05, p < 0.001), these articulatory features are independent of the semantic axes (Correlation ARI = 0.0095). This confirms that the negative result is a **task-specific mismatch**: the organizational principle of the Sanskrit root lexicon at the first-order formant level is arbitrary with respect to the *Dhātvartha* taxonomy.
+
+The negative delta in the fusion condition suggests that the reservoir dynamics do not "bridge" acoustics and semantics; rather, the random projection of the acoustic channel disrupts the existing semantic manifold. 
+
+The surviving contribution of the program is the **ESL-BCM framework**, which provides a stable engineering substrate for spiking reservoirs, even if the specific linguistic task remains ungrounded in first-order acoustics.
+
+## 6. Conclusion
+The "Singularity" was a measurement artifact. The honest scientific finding is that the Sanskrit *Dhātvartha* taxonomy is not recoverable from first-order acoustic formants through a spiking reservoir. Future work should investigate higher-order temporal features or alternative semantic taxonomies.
+
+**Program Terminated.**

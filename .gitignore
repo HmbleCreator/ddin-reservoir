@@ -1,15 +1,64 @@
-# DDIN-Reservoir: Git Ignore
-# ========================
+# =========================
+# DDIN-Reservoir .gitignore
+# =========================
 
-## CORE KEEP (no ignore):
-Papers/           # - All published papers (Paper1-5)
-# Experiments/      - ALL experiment code (exp01 through exp57+)
-# SampleData/      - Benchmark datasets  
-# ddin_agi_research_log.md - Complete research log
+# -------------------------
+# 🧠 Core Exclusions
+# -------------------------
 
-## EXCLUDE:
+# Papers (you said you don't want them)
+Papers/
 
-# Python cache
+# Discussions / audits / site
+Discussions/
+Audits/
+hmblecreator.github.io/
+
+# -------------------------
+# 📂 Context Folder (PARTIAL IGNORE)
+# -------------------------
+
+# Ignore only specific files (NOT whole folder)
+Context/New Paradigm for AI research .docx.pdf
+Context/Obsidian Notes on Advanced AI.txt
+Context/Devavāṇī-Derived Interpretable Network (DDIN)_ Harnessing Sanskrit Principles for Transparent AI.md
+Context/The Ten Great Cosmic Powers (S. Shankaranarayanan) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+
+# -------------------------
+# 🧪 Temporary / Raw Data
+# -------------------------
+
+temp_*/
+temp_sanskrit_verb/
+temp_ashtadhyayi_data/
+
+# -------------------------
+# 📦 Generated / Reproducible Outputs
+# -------------------------
+
+*.npy
+*.pkl
+*.h5
+*.npz
+
+vaikhari_generated.json
+centroids.npy
+exp38_balanced_prior.json
+alien_roots.json
+dhatupatha_full.csv
+
+# -------------------------
+# 🧾 Large / Binary Files
+# -------------------------
+
+*.zip
+*.mp4
+*.pdf
+
+# -------------------------
+# 🐍 Python
+# -------------------------
+
 __pycache__/
 *.py[cod]
 *$py.class
@@ -17,62 +66,50 @@ __pycache__/
 .Python
 *.egg-info/
 .pytest_cache/
+.venv/
+venv/
+env/
 
-# IDE
+# -------------------------
+# 🛠️ IDE / Editor
+# -------------------------
+
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# OS
+# -------------------------
+# 💻 OS
+# -------------------------
+
 .DS_Store
 Thumbs.db
 
-# Debug/utility scripts (optional - personal tools)
+# -------------------------
+# 🔧 Debug / Utility Scripts (optional)
+# -------------------------
+
 diagnose_labels.py
 check_count.py
 cleanup_unicode.py
 
-# Generated/regeneratable outputs
-vaikhari_generated.json
-centroids.npy
-*.npy
-exp38_balanced_prior.json
-alien_roots.json
-dhatupatha_full.csv
+# -------------------------
+# 🔗 Embedded Git Repos
+# -------------------------
 
-# Temp/unprocessed directories
-temp_*/
-temp_sanskrit_verb/
-temp_ashtadhyayi_data/
-
-# Embedded git repos (separate projects)
 PhonoSemantics/
 temp_vyakarana/
 
-# Reference materials (don't upload copyrighted)
-books/
+# -------------------------
+# ✅ Explicitly KEEP (override if needed)
+# -------------------------
 
-# Context folder - personal notes and references (exclude specific files)
-Context/Obsidian Notes on Advanced AI.txt
-Context/Devavāṇī-Derived Interpretable Network (DDIN)_ Harnessing Sanskrit Principles for Transparent AI.md
-Context/The Ten Great Cosmic Powers (S. Shankaranarayanan) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+# Example: ensure important files are tracked
+!README.md
+!requirements.txt
+!*.py
 
-
-# Discussions
-Discussions/
-Audits/
-# Landing page website (separate repo)
-hmblecreator.github.io/
-
-# Large binary files
-*.pdf
-*.zip
-*.mp4
-*.h5
-*.pkl
-
-Final_Paper_Negative_Result.md洞
-exp38_balanced_prior.json
-vaikhari_evaluation_v2.md
+# If ata.txt was being ignored somewhere
+!ata.txt
